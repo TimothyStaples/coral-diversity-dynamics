@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556234243212.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "17|40|41|4|\n95|68|121|4|\n",
+    "hash" : "2850506662",
+    "id" : "AEEE005C",
+    "lastKnownWriteTime" : 1557184903,
+    "last_content_update" : 1557184905289,
+    "path" : "~/Dropbox/Tim/Post-doc/Research projects/huon_cooccur/functions/beta.model.R",
+    "project_path" : "functions/beta.model.R",
+    "properties" : {
+        "cursorPosition" : "149,2",
+        "scrollLine" : "47",
+        "source_window_id" : "wzin2cctov6kk",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

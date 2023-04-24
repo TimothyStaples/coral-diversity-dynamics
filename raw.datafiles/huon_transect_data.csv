@@ -1,0 +1,96 @@
+"","depth","TS.AF8.Notes","transect","country","region","age","site","locality","date","latitude","longitude","elevation","height.from.dist","height.ord","dist.from.top","env","transect.length","mollusc.coll","notes","temp.match","age.min","age.max","age.median","age.mean"
+"1",200,"","1","PNG","Huon","Holocene","Kanomi","Pukau SE","21.08.99",-6.218215,147.675108,"Just below earthquake horizon",-0.5,"1","2","Upper reef slope","25.4","1528","","Pukau SE:-0.5",8691,8842,8759,8763
+"2",50,"","3","PNG","Huon","Holocene","Kanomi","Pukau SE","26.08.99",-6.218215,147.675108,"1m above earthquake horizon",1,"2","0.5","Upper reef slope","28.03","1684","","Pukau SE:1",8434,8519,8485,8482
+"3",0,"","25","PNG","Huon","Holocene","Kanomi","Pukau SE","14.12.00",-6.218215,147.675108,"1 m above disturbance",1.5,"3","0",NA,NA,NA,"","Pukau SE:1.5",8381,8459,8422,8421
+"4",800,"","4","PNG","Huon","Holocene","Sialum","Kilasairo River NW","27.08.99",-6.112057,147.626632,"+ACI-120cm above beach ht. (100 cm above disturbance interval ??+ACIAIg- post-disturbance).+ACI-",1,"1","8","Upper reef slope","24.8","1647","","Kilasairo River NW:1",7880,7886,7883,7883
+"5",600,"","83","PNG","Huon","Holocene","Sialum","Kilasairo River NW","23.02.04",-6.112057,147.626632,"1m above 87",3,"3","6",NA,NA,NA,"","Kilasairo River NW:3",7657,7705,7681,7681
+"6",500,"","84","PNG","Huon","Holocene","Sialum","Kilasairo River NW","24.02.04",-6.112057,147.626632,"1m above 83",4,"4","5",NA,NA,NA,"","Kilasairo River NW:4",7427,7492,7456,7456
+"7",400,"Row 246 and 249 overlap","85","PNG","Huon","Holocene","Sialum","Kilasairo River NW","24.02.04",-6.112057,147.626632,"1m above 84",5,"5","4",NA,NA,NA,"","Kilasairo River NW:5",7100,7189,7171,7166
+"8",300,"","86","PNG","Huon","Holocene","Sialum","Kilasairo River NW","25.02.04",-6.112057,147.626632,"1m above 85",6,"6","3",NA,NA,NA,"","Kilasairo River NW:6",6903,7012,6962,6962
+"9",700,"","87","PNG","Huon","Holocene","Sialum","Kilasairo River NW","22.02.04",-6.112057,147.626632,"bottom of cliff",2,"2","7",NA,NA,NA,"","Kilasairo River NW:2",7776,7823,7797,7798
+"10",200,"","88","PNG","Huon","Holocene","Sialum","Kilasairo River NW","26.02.04",-6.112057,147.626632,"1m abover 86 (yes 86+ACE-)",7,"7","2",NA,NA,NA,"","Kilasairo River NW:7",6605,6722,6655,6660
+"11",100,"","89","PNG","Huon","Holocene","Sialum","Kilasairo River NW","29.02.04",-6.112057,147.626632,"1m above 88",8,"8","1",NA,NA,NA,"","Kilasairo River NW:8",6440,6540,6491,6490
+"12",0,"","90","PNG","Huon","Holocene","Sialum","Kilasairo River NW","02.03.04",-6.112057,147.626632,"1m above 89",9,"9","0",NA,NA,NA,"","Kilasairo River NW:9",6187,6285,6245,6242
+"13",780,"","2","PNG","Huon","Holocene","Kanomi","Bonah River","21.08.99",-6.170993,147.666721,"Just below earthquake horizon",-1,"1","7.8","Reef slope","32.58m",NA,"","Bonah River:-1",8260,8314,8288,8287
+"14",580,"","6","PNG","Huon","Holocene","Kanomi","Bonah River","29.08.99",-6.170993,147.666721,"+ACI-100cm above disturbance interval ??+ACIAIg- post-disturbance+ACI-",1,"3","5.8","Reef slope","24.8","1701","","Bonah River:1",8060,8068,8065,8065
+"15",680,"","9","PNG","Huon","Holocene","Kanomi","Bonah River","",-6.170993,147.666721,"at disturbance interval",0,"2","6.8","","",NA,"","Bonah River:0",8178,8226,8203,8203
+"16",480,"","14","PNG","Huon","Holocene","Kanomi","Bonah River","30.11.00",-6.170993,147.666721,"Disturbance  2m",2,"4","4.8","Upper reef slope",NA,NA,"","Bonah River:2",8030,8048,8040,8040
+"17",380,"","15","PNG","Huon","Holocene","Kanomi","Bonah River","01.12.00",-6.170993,147.666721,"1 m above 14",3,"5","3.8",NA,NA,NA,"","Bonah River:3",7964,8008,7988,7988
+"18",280,"","20","PNG","Huon","Holocene","Kanomi","Bonah River","03.12.00",-6.170993,147.666721,"1 m above 15 ",4,"6","2.8",NA,NA,NA,"","Bonah River:4",7727,7838,7788,7787
+"19",180,"","21","PNG","Huon","Holocene","Kanomi","Bonah River","03.12.00",-6.170993,147.666721,"1 m above 20 ",5,"7","1.8",NA,NA,NA,"","Bonah River:5",7456,7536,7501,7499
+"20",80,"","22","PNG","Huon","Holocene","Kanomi","Bonah River","04.12.00",-6.170993,147.666721,"1 m above 21 ",6,"8","0.8",NA,NA,NA,"","Bonah River:6",6890,7193,7066,7060
+"21",0,"","23","PNG","Huon","Holocene","Kanomi","Bonah River","05.12.00",-6.170993,147.666721,"80 cm above 22",6.8,"9","0",NA,NA,NA,"","Bonah River:6.8",6102,6237,6172,6171
+"22",600,"","7","PNG","Huon","Holocene","Sialum","Kwambu Platforms","31.08.99",-6.13161,147.630693,"+ACI-100cm above disturbance interval ??+ACIAIg- post-disturbance+ACI-",1,"1","6","Exposed upper reef slope","24.8","1837","","Kwambu Platforms:1",7673,7785,7751,7751
+"23",400,"","98","PNG","Huon","Holocene","Sialum","Kwambu Platforms","12.03.04",-6.13161,147.630693,"",3,"3","4",NA,NA,NA,"","Kwambu Platforms:3",7490,7579,7542,7540
+"24",300,"","99","PNG","Huon","Holocene","Sialum","Kwambu Platforms","13.03.04",-6.13161,147.630693,"1m above 98",4,"4","3",NA,NA,NA,"","Kwambu Platforms:4",7342,7447,7404,7401
+"25",200,"","100","PNG","Huon","Holocene","Sialum","Kwambu Platforms","13.03.04",-6.13161,147.630693,"1m above 99",5,"5","2",NA,NA,NA,"","Kwambu Platforms:5",7182,7307,7258,7253
+"26",100,"","102","PNG","Huon","Holocene","Sialum","Kwambu Platforms","16.03.04",-6.13161,147.630693,"1m above 100",6,"6","1",NA,NA,NA,"","Kwambu Platforms:6",6976,7127,7060,7058
+"27",0,"","103","PNG","Huon","Holocene","Sialum","Kwambu Platforms","16.03.04",-6.13161,147.630693,"",7,"7","0",NA,NA,NA,"","Kwambu Platforms:7",6788,6956,6877,6874
+"28",500,"","104","PNG","Huon","Holocene","Sialum","Kwambu Platforms","20.03.04",-6.13161,147.630693,"1m below 98",2,"2","5",NA,NA,NA,"","Kwambu Platforms:2",7606,7702,7675,7671
+"29",400,"","10","PNG","Huon","Holocene","Kanomi","Paradise Springs","26.11.00",-6.179368,147.669817,"+ACI-+ACIAIg-170cm+ACIAIg-+ACI-",1,"1","4","Reef slope",NA,NA,"","Paradise Springs:1",8520,8782,8643,8645
+"30",200,"","79","PNG","Huon","Holocene","Kanomi","Paradise Springs","",-6.179368,147.669817,"2m above 10",3,"3","2","","",NA,"","Paradise Springs:3",8169,8315,8238,8239
+"31",100,"","80","PNG","Huon","Holocene","Kanomi","Paradise Springs","",-6.179368,147.669817,"1m above 79",4,"4","1","","",NA,"","Paradise Springs:4",7954,8115,8029,8032
+"32",0,"","82","PNG","Huon","Holocene","Kanomi","Paradise Springs","",-6.179368,147.669817,"1m above 89",5,"5","0","","",NA,"","Paradise Springs:5",7772,7942,7855,7855
+"33",300,"","101","PNG","Huon","Holocene","Kanomi","Paradise Springs","",-6.179368,147.669817,"1m below 79",2,"2","3","","",NA,"","Paradise Springs:2",8341,8553,8442,8443
+"34",100,"","11","PNG","Huon","Holocene","Hubegong","Sang River SE","28.11.00",-6.30039,147.782046,"below disturbance interval",-0.5,"1","1",NA,NA,NA,"","Sang River SE:-0.5",8765,8953,8856,8858
+"35",50,"","12","PNG","Huon","Holocene","Hubegong","Sang River SE","",-6.30039,147.782046,"at disturbance interval",0,"2","0.5",NA,NA,NA,"","Sang River SE:0",8674,8858,8754,8760
+"36",0,"","13","PNG","Huon","Holocene","Hubegong","Sang River SE","29.11.00",-6.30039,147.782046,"50 cm above dist. Interval",0.5,"3","0",NA,NA,NA,"","Sang River SE:0.5",8591,8773,8663,8670
+"37",950,"","16","PNG","Huon","Holocene","Hubegong","Loto Beach","01.12.00",-6.289989,147.767628,"50 cm below disturbance ",-0.5,"1","9.5",NA,NA,NA,"","Loto Beach:-0.5",8677,8841,8758,8758
+"38",800,"Overlap in the 12m range","24","PNG","Huon","Holocene","Hubegong","Loto Beach","06.12.00",-6.289989,147.767628,"1 m above disturbance",1,"3","8",NA,NA,NA,"JP notes say 50-100cm above disturbance","Loto Beach:1",8426,8507,8465,8465
+"39",0,"","39","PNG","Huon","Holocene","Hubegong","Loto Beach","28.07.01",-6.289989,147.767628,"top of seacliff face",9,"11","0",NA,NA,NA,"","Loto Beach:9",7603,7695,7667,7658
+"40",100,"","40","PNG","Huon","Holocene","Hubegong","Loto Beach","28.07.01",-6.289989,147.767628,"1m below 39",8,"10","1",NA,NA,NA,"","Loto Beach:8",7700,7786,7751,7748
+"41",200,"","41","PNG","Huon","Holocene","Hubegong","Loto Beach","30.07.01",-6.289989,147.767628,"1m below 40",7,"9","2",NA,NA,NA,"","Loto Beach:7",7794,7867,7831,7831
+"42",300,"","42","PNG","Huon","Holocene","Hubegong","Loto Beach","31.07.01",-6.289989,147.767628,"1m below 41",6,"8","3",NA,NA,NA,"","Loto Beach:6",7884,7938,7910,7912
+"43",400,"","43","PNG","Huon","Holocene","Hubegong","Loto Beach","30.07.01",-6.289989,147.767628,"1m below 42",5,"7","4",NA,NA,NA,"","Loto Beach:5",7988,8017,8006,8005
+"44",500,"","44","PNG","Huon","Holocene","Hubegong","Loto Beach","02.08.01",-6.289989,147.767628,"1m below 43",4,"6","5",NA,NA,NA,"","Loto Beach:4",8085,8141,8112,8113
+"45",600,"","45","PNG","Huon","Holocene","Hubegong","Loto Beach","02.08.01",-6.289989,147.767628,"1m below 44",3,"5","6",NA,NA,NA,"","Loto Beach:3",8201,8269,8233,8233
+"46",700,"","46","PNG","Huon","Holocene","Hubegong","Loto Beach","03.08.01",-6.289989,147.767628,"1m below 45  1m above 24",2,"4","7",NA,NA,NA,"","Loto Beach:2",8312,8376,8345,8345
+"47",900,"","17A1","PNG","Huon","Holocene","Hubegong","Loto Beach",NA,-6.289989,147.767628,"at disturbance interval",0,"2","9","","",NA,"","Loto Beach:0",8581,8723,8646,8648
+"48",150,"","18","PNG","Huon","Holocene","Hubegong","Wondakai","02.12.00",-6.284924,147.750208,"50 cm below disturbance ",-0.5,"1","1.5",NA,NA,NA,"","Wondakai:-0.5",8593,8858,8702,8710
+"49",0,"Four rows overlap 35  36  37 and 40","19","PNG","Huon","Holocene","Hubegong","Wondakai","02.12.00",-6.284924,147.750208,"1 m above disturbance ",1,"3","0",NA,NA,NA,"","Wondakai:1",8371,8609,8454,8465
+"50",100,"","17A2","PNG","Huon","Holocene","Hubegong","Wondakai","",-6.284924,147.750208,"at disturbance interval",0,"2","1","","",NA,"","Wondakai:0",8519,8780,8619,8629
+"51",900,"","5","PNG","Huon","Holocene","Kanomi","Pukau NW","28.08.99",-6.207562,147.672713,"+ACI-100cm above disturbance interval ??+ACIAIg- post-disturbance+ACI-",1,"3","7","Upper reef slope","25","2039","","Pukau NW:1",8017,8046,8028,8029
+"52",1000,"","26","PNG","Huon","Holocene","Kanomi","Pukau NW","13.07.01",-6.207562,147.672713,"basal",0,"1","9",NA,NA,NA,"aborted due to bees. Potentially crosses disturbance interval.","Pukau NW:0",8102,8213,8147,8149
+"53",950,"","27","PNG","Huon","Holocene","Kanomi","Pukau NW","14.07.01",-6.207562,147.672713,"SL  170cm",0.5,"2","8",NA,NA,NA,"","Pukau NW:0.5",8040,8067,8044,8047
+"54",850,"","28","PNG","Huon","Holocene","Kanomi","Pukau NW","17.07.01",-6.207562,147.672713,"1m above 27",1.5,"4","6.5",NA,NA,NA,"","Pukau NW:1.5",7999,8024,8011,8011
+"55",400,"","31","PNG","Huon","Holocene","Kanomi","Pukau NW","20.07.01",-6.207562,147.672713,"basal tran of Pl3",6,"6","4",NA,NA,NA,"","Pukau NW:6",7277,7318,7289,7291
+"56",300,"Intercepts in several different sections","33","PNG","Huon","Holocene","Kanomi","Pukau NW","22.07.01",-6.207562,147.672713,"1m above 31 (basal)",7,"7","3",NA,NA,NA,"","Pukau NW:7",6993,7192,7057,7068
+"57",200,"Intercepts in several different sections","34","PNG","Huon","Holocene","Kanomi","Pukau NW","22.07.01",-6.207562,147.672713,"1m above 33",8,"8","2",NA,NA,NA,"","Pukau NW:8",6710,6710,6710,6710
+"58",100,"Intercepts in several different sections","35","PNG","Huon","Holocene","Kanomi","Pukau NW","02.07.01",-6.207562,147.672713,"1m above 34",9,"9","1",NA,NA,NA,"","Pukau NW:9",6610,6658,6631,6632
+"59",0,"Intercepts in several different sections","36","PNG","Huon","Holocene","Kanomi","Pukau NW","22.07.01",-6.207562,147.672713,"1m above 35",10,"10","0",NA,NA,NA,"","Pukau NW:10",6429,6469,6455,6453
+"60",750,"","38","PNG","Huon","Holocene","Kanomi","Pukau NW","26.07.01",-6.207562,147.672713,"1m above 28 (2.5m above beach)",2.5,"5","5.5",NA,NA,NA,"","Pukau NW:2.5",7860,7953,7923,7912
+"61",800,"","32","PNG","Huon","Holocene","Sialum","Kilasairo River SE","21.07.01",-6.123532,147.629194,"basal tr. below disturb. horizon",-1,"1","8",NA,NA,NA,"","Kilasairo River SE:-1",7924,8042,7958,7968
+"62",700,"Row 10 and 14 overlap","37","PNG","Huon","Holocene","Sialum","Kilasairo River SE","24.07.01",-6.123532,147.629194,"1m above 32",0,"2","7",NA,NA,NA,"+ACI-in the notebook there is also a spot where +ACIAIg-below disturbance+ACIAIg- was beginning to be written and then it was crossed out.  Since we don't know how far below the disturbance TR 32 is  we can't be sure that 37 is above the disturbance. +ACI-","Kilasairo River SE:0",7749,7884,7809,7811
+"63",600,"","91","PNG","Huon","Holocene","Sialum","Kilasairo River SE","03.03.04",-6.123532,147.629194,"1m above the 2 basal transects",1,"3","6",NA,NA,NA,"","Kilasairo River SE:1",7596,7716,7653,7653
+"64",500,"","92","PNG","Huon","Holocene","Sialum","Kilasairo River SE","04.03.04",-6.123532,147.629194,"1m above 91",2,"4","5",NA,NA,NA,"","Kilasairo River SE:2",7426,7536,7478,7478
+"65",400,"","93","PNG","Huon","Holocene","Sialum","Kilasairo River SE","04.03.04",-6.123532,147.629194,"1m above 92",3,"5","4",NA,NA,NA,"","Kilasairo River SE:3",7212,7336,7276,7277
+"66",300,"","94","PNG","Huon","Holocene","Sialum","Kilasairo River SE","09.03.04",-6.123532,147.629194,"1m above 93",4,"6","3",NA,NA,NA,"","Kilasairo River SE:4",6958,7095,7021,7022
+"67",200,"","95","PNG","Huon","Holocene","Sialum","Kilasairo River SE","05.03.04",-6.123532,147.629194,"1m above 94",5,"7","2",NA,NA,NA,"","Kilasairo River SE:5",6609,6743,6679,6679
+"68",100,"","96","PNG","Huon","Holocene","Sialum","Kilasairo River SE","07.03.04",-6.123532,147.629194,"1m above 96",6,"8","1",NA,NA,NA,"","Kilasairo River SE:6",6202,6310,6254,6254
+"69",0,"","97","PNG","Huon","Holocene","Sialum","Kilasairo River SE","07.03.04",-6.123532,147.629194,"1m above 96",7,"9","0",NA,NA,NA,"","Kilasairo River SE:7",5930,6106,6024,6023
+"70",0,"","52","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 53",7,"13","0","","",NA,"","Midway Cove:7",7561,7676,7608,7610
+"71",150,"","53","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 54",5.5,"12","0.5","","",NA,"","Midway Cove:5.5",7749,7860,7805,7806
+"72",250,"","54","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 54",4.5,"11","1.5","","",NA,"","Midway Cove:4.5",7860,7955,7909,7908
+"73",350,"","55","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 55",3.5,"10","2.5","","",NA,"","Midway Cove:3.5",7953,8039,7993,7994
+"74",450,"","56","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 56",2.5,"9","3.5","","",NA,"","Midway Cove:2.5",8038,8125,8078,8079
+"75",550,"","57","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 57",1.5,"8","4.5","","",NA,"","Midway Cove:1.5",8132,8220,8163,8167
+"76",650,"","58","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 58",0.5,"7","5.5","","",NA,"","Midway Cove:0.5",8262,8327,8294,8294
+"77",700,"","59","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"considering this to be on disturbance",0,"6","6.5","","",NA,"","Midway Cove:0",8360,8418,8388,8388
+"78",800,"","60","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 59",-1,"5","7.5","","",NA,"","Midway Cove:-1",8505,8613,8557,8557
+"79",900,"","61","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 60",-2,"4","8.5","","",NA,"","Midway Cove:-2",8661,8795,8730,8730
+"80",1000,"","62","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 61",-3,"3","9.5","","",NA,"","Midway Cove:-3",8819,8946,8894,8890
+"81",1100,"","63","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 62",-4,"2","10.5","","",NA,"","Midway Cove:-4",8991,9173,9084,9084
+"82",1200,"","64","PNG","Huon","Holocene","Hubegong","Midway Cove","",-6.307605,147.783263,"1m below 63",-5,"1","11.5","","",NA,"","Midway Cove:-5",9172,9383,9277,9279
+"83",900,"","66","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m below 67  1m above 68",4,"4","9","","",NA,"","NW Point:4",8829,8956,8907,8902
+"84",800,"","67","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 66",5,"5","8","","",NA,"","NW Point:5",8692,8836,8774,8771
+"85",1000,"","68","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m below 66",3,"3","10","","",NA,"","NW Point:3",8977,9115,9057,9054
+"86",1100,"","69","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m below 68",2,"2","11","","",NA,"","NW Point:2",9120,9263,9212,9207
+"87",700,"","70","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 67",6,"6","7","","",NA,"","NW Point:6",8560,8707,8643,8639
+"88",600,"","71","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 70",7,"7","6","","",NA,"","NW Point:7",8432,8574,8510,8507
+"89",500,"","72","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 71",8,"8","5","","",NA,"","NW Point:8",8281,8439,8370,8367
+"90",400,"","73","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 72",9,"9","4","","",NA,"","NW Point:9",8140,8300,8231,8226
+"91",300,"","74","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 73",10,"10","3","","",NA,"","NW Point:10",8016,8181,8102,8101
+"92",200,"","75","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 74",11,"11","2","","",NA,"","NW Point:11",7896,8060,7975,7976
+"93",100,"","76","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 75",12,"12","1","","",NA,"","NW Point:12",7782,7940,7847,7851
+"94",0,"","77","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m above 76",13,"13","0","","",NA,"","NW Point:13",7671,7813,7719,7726
+"95",1200,"","78","PNG","Huon","Holocene","Hubegong","NW Point","",-6.301801,147.78425,"1m below 69",1,"1","12","","",NA,"","NW Point:1",9309,9507,9409,9409
