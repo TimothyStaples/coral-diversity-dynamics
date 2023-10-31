@@ -1,7 +1,8 @@
 mvGamsFreq <- function(dataList, primaryvarList, secondaryvarList, dateDiff = FALSE){
   
   lapply(1:length(dataList), function(n){
-print(n)
+    
+    print(n)
     model.data <- dataList[[n]]
     model.data$primary <- model.data[,primaryvarList[n]]
     model.data$secondary <- model.data[,secondaryvarList[n]]
@@ -10,37 +11,41 @@ print(n)
     # dummy variable to switch off random effect smoothers for prediction
     model.data$dummy = 1
     
+    model.data = model.data[complete.cases(model.data[,c("primary", "secondary")]),]
+    
     # we need to include difference in dates as covariate for beta diversity models
     if(!dateDiff){
       # region level model
-      region.m <- gam(list(primary ~ s(pred.date, k=9) + s(site, locality, bs="re", by=dummy),
-                           secondary ~ s(pred.date, k=9) + s(site, locality, bs="re", by=dummy)), 
+      region.m <- gam(list(primary ~ s(pred.date, k=9, bs="ps") + s(site, locality, bs="re", by=dummy),
+                           secondary ~ s(pred.date, k=9, bs="ps") + s(site, locality, bs="re", by=dummy)), 
                       family=mvn(d=2), data=model.data, method="REML")
       
       # site level model (called 'locality' in plot)
-      site.m <- gam(list(primary ~ s(pred.date, by=site, k=9) + site + s(locality, bs="re", by=dummy),
-                         secondary ~ s(pred.date, by=site, k=9) + site + s(locality, bs="re", by=dummy)), 
+      site.m <- gam(list(primary ~ s(pred.date, by=site,  bs="ps", k=9) + site + s(locality, bs="re", by=dummy),
+                         secondary ~ s(pred.date, by=site,  bs="ps", k=9) + site + s(locality, bs="re", by=dummy)), 
                     family=mvn(d=2), data=model.data, method="REML")
       
       # locality level model (called 'site' in plot)
-      locality.m <- gam(list(primary ~ s(pred.date, by=locality, k=3) + locality,
-                             secondary ~ s(pred.date, by=locality, k=3) + locality), 
+      locality.m <- gam(list(primary ~ s(pred.date, by=locality, bs="ps", k=4) + locality,
+                             secondary ~ s(pred.date, by=locality, bs="ps", k=4) + locality), 
                         family=mvn(d=2), data=model.data, method="REML")
-    } else {
+      
+      
+        } else {
       
       # region level model
-      region.m <- gam(list(primary ~ s(pred.date, k=9) + date.diff + s(site, locality, bs="re", by=dummy),
-                           secondary ~ s(pred.date, k=9) + date.diff + s(site, locality, bs="re", by=dummy)), 
+      region.m <- gam(list(primary ~ s(pred.date, k=9, bs="ps") + date.diff + s(site, locality, bs="re", by=dummy),
+                           secondary ~ s(pred.date, k=9, bs="ps") + date.diff + s(site, locality, bs="re", by=dummy)), 
                       family=mvn(d=2), data=model.data, method="REML")
       
       # site level model (called 'locality' in plot)
-      site.m <- gam(list(primary ~ s(pred.date, by=site, k=9) + site + date.diff +  s(locality, bs="re", by=dummy),
-                         secondary ~ s(pred.date, by=site, k=9) + site + date.diff + s(locality, bs="re", by=dummy)), 
+      site.m <- gam(list(primary ~ s(pred.date, by=site, k=9, bs="ps") + site + date.diff +  s(locality, bs="re", by=dummy),
+                         secondary ~ s(pred.date, by=site, k=9, bs="ps") + site + date.diff + s(locality, bs="re", by=dummy)), 
                     family=mvn(d=2), data=model.data, method="REML")
       
       # locality level model (called 'site' in plot)
-      locality.m <- gam(list(primary ~ s(pred.date, by=locality, k=3) + locality + date.diff,
-                             secondary ~ s(pred.date, by=locality, k=3)  + locality + date.diff), 
+      locality.m <- gam(list(primary ~ s(pred.date, by=locality, k=4, bs="ps") + locality + date.diff,
+                             secondary ~ s(pred.date, by=locality, k=4, bs="ps")  + locality + date.diff), 
                         family=mvn(d=2), data=model.data, method="REML")
       
     }

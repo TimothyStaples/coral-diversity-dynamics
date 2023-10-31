@@ -38,20 +38,8 @@ betaDiversityCalc <- function(siteData,
                                   return(x)
                                 }))
   
-  top.beta.rotate <- rotate.data(x=turnover.df$top.gr.diss,
-                                 y=turnover.df$top.gen.diss,
-                                 angle=45)[,3:4]
-  colnames(top.beta.rotate) <- c("dissimilarity", "conservation")
-  
-  turnover.df <- cbind(turnover.df, top.beta.rotate)
-  
-  seq.beta.rotate <- rotate.data(x=turnover.df$seq.gr.diss,
-                                 y=turnover.df$seq.gen.diss,
-                                 angle=45)[,3:4]
-  colnames(seq.beta.rotate) <- c("turnover", "persistance")
-  
   colnames(turnover.df)[colnames(turnover.df)=="transect.age"] = "pred.date"
   
-  return(cbind(turnover.df, seq.beta.rotate))
+  return(turnover.df)
   
 }

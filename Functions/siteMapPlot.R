@@ -2,8 +2,9 @@ siteMapPlot <- function(path){
   
   # Rotated site map with age trends ####
   #                 import date data ####
+  require(raster)
   
-  Tpng<-read.csv("/home/timothy/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/huon.transect.csv",
+  Tpng<-read.csv("/Users/uqtstapl/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/huon.transect.csv",
                  stringsAsFactors = FALSE)
   Tloc<-Tpng[!duplicated(Tpng$locality) & Tpng$locality %in% huon_coral$locality,]
   Tloc$latitude<-as.numeric(gsub("\\+AC0","",Tloc$latitude))
@@ -23,8 +24,8 @@ siteMapPlot <- function(path){
           si * crds[,1] + co * crds[,2]) + adj
   }
   
-  png_outline <- readShapeSpatial("/home/timothy/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/shape_files/PNG_adm/PNG_adm0.shp")
-  png_elev2 <- raster("/home/timothy/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/shape_files/PNG_elev/ASTGTM2_S07E147/ASTGTM2_S07E147_dem.tif")
+  png_outline <- readShapeSpatial("/Users/uqtstapl/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/shape_files/PNG_adm/PNG_adm0.shp")
+  png_elev2 <- raster("/Users/uqtstapl/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/shape_files/PNG_elev/ASTGTM2_S07E147/ASTGTM2_S07E147_dem.tif")
   
   proj4string(png_outline) <- crs(png_elev2)
   
@@ -47,32 +48,35 @@ siteMapPlot <- function(path){
                             angle=rotate.angle,
                             center=bbox(png_outline)[,1])
   
-  northarrow<-readPicture("Plots/North_Pointer_rotateCairo.svg")
+  northarrow<-readPicture("/Users/uqtstapl/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/plots/North_Pointer_rotateCairo.svg")
   
   #                         Plot map ####
   
-  pdf(path, height=3.5, width=5.5)
+  pdf(path, height=4.5, width=5.5)
   par(mar=c(0.5,2,0.5,0.5), ps=6, tck=-0.025, mgp=c(3,0.5,0), las=1)
   
-  split.screen(rbind(c(0.055,0.5,0.025,0.975),
-                     c(0.255,0.405,0.8,0.975),
+  split.screen(rbind(c(0.055,0.55,0.05,0.975),
+                     c(0.305,0.405,0.85,0.975),
                      
-                     c(0.54,0.69,0.70,0.90),
-                     c(0.69,0.84,0.70,0.90),
-                     c(0.84,0.99,0.70,0.90),
+                     c(0.54,0.69,0.8,0.975),
+                     c(0.69,0.84,0.8,0.975),
+                     c(0.84,0.99,0.8,0.975),
                      
-                     c(0.54,0.69,0.40,0.60),
-                     c(0.69,0.84,0.40,0.60),
-                     c(0.84,0.99,0.40,0.60),
+                     c(0.54,0.69,0.56,0.735),
+                     c(0.69,0.84,0.56,0.735),
+                     c(0.84,0.99,0.56,0.735),
                      
-                     c(0.54,0.69,0.1,0.30),
-                     c(0.69,0.84,0.1,0.30),
-                     c(0.84,0.99,0.1,0.30)))
+                     c(0.54,0.69,0.32,0.495),
+                     c(0.69,0.84,0.32,0.495),
+                     c(0.84,0.99,0.32,0.495),
+                     
+                     c(0.54, 0.925, 0.055, 0.25),
+                     c(0.54, 0.925, 0.055, 0.25)))
   
   screen(1)
   par(mar=c(0,0,0,0))
   plot(x=NULL, y=NULL, xlim=c(149.45,149.75), ylim=c(-11.3,-10.9), axes=FALSE,
-       xaxs="i", yaxs="i", asp=1)
+       xaxs="i", yaxs="i", asp=1, xlab="", ylab="")
   
   plot.extent<-par("usr")
   
@@ -226,7 +230,6 @@ siteMapPlot <- function(path){
   
   box()
   
-  
   axis(side=1, at=seq(140,155,5), 
        labels=paste0(seq(140,155,5), "°E"), mgp=c(3,-0.2,0))
   axis(side=2, at=seq(-10,0,5), labels=paste0(seq(-10,0,5), "°S"),
@@ -244,26 +247,27 @@ siteMapPlot <- function(path){
                   "Midway Cove", "NW Point", "Loto Beach")
   
   raw.dates <- read.csv("./raw.datafiles/raw_huon_dates.csv")
-  
+
   sapply(1:length(date.order), function(n){
-    
-    test.ylims <- rbind(c(8750,5750),
-                        c(8800,6000),
-                        c(9550,7250))[(n-1) %/% 3 + 1,]
+  
+    print(n)
+    test.ylims <- rbind(c(9000,6000),
+                        c(9500,6000),
+                        c(10000,7500))[(n-1) %/% 3 + 1,]
     
     screen(n+2)
     par(mar=c(0,0,0,0), las=0, ps=6, tcl=-0.125, mgp=c(3,0.5,0), las=1)
     
     temp.loc <- date.order[n]
-    date.locs <- raw.dates[raw.dates$locality == temp.loc,]
-    date.locs <- date.locs[date.locs$sigma < 1000, ]
+    date.locs <- raw.dates[raw.dates$site == temp.loc,]
+    date.locs <- date.locs[date.locs$calSigma < 1000, ]
     site.locs <- raw.dates[raw.dates$site == date.locs$site[1],]
     
     temp.col <- c("darkgreen", "red", "blue")[((n-1) %/% 3) + 1]
     
     poly.col <- col2rgb(temp.col)/255
     
-    plot(x=NULL, y=NULL, xlim=test.ylims, ylim=c(-5,14), axes=FALSE, xlab="", ylab="")
+    plot(x=NULL, y=NULL, xlim=test.ylims, ylim=c(-5,15), axes=FALSE, xlab="", ylab="")
     
     if(n %in% c(1,4,7)){
       axis(side=2, at=seq(-5,15,5), mgp=c(3,0.2,0))
@@ -276,21 +280,24 @@ siteMapPlot <- function(path){
       mtext(side=1, line=0.325, text="Thousands of years before present")
       
     }
-    axis(side=1, at = seq(6000,9000,1000), labels=6:9, mgp=c(3,-0.2,0))
-    axis(side=1, at = seq(6000,9000,500), labels=NA, tcl=-0.125)
+    axis(side=1, at = seq(6000,11000,1000), labels=6:11, mgp=c(3,-0.2,0))
+    axis(side=1, at = seq(6000,11000,500), labels=NA, tcl=-0.125)
     
+    with(date.locs[!date.locs$removedPriorToModelling,],
+    segments(y0 = heightFromDist, y1 = heightFromDist,
+             x0 = calDate + calSigma, 
+             x1 = calDate - calSigma, col="grey70"))
     
-    segments(y0 = date.locs$height.from.dist, y1 = date.locs$height.from.dist,
-             x0 = date.locs$date + date.locs$sigma, 
-             x1 = date.locs$date - date.locs$sigma, col="grey70")
+    points(x=date.locs$calDate, y=date.locs$heightFromDist, pch=ifelse(date.locs$removedPriorToModelling, 4, 16), cex=0.5, col="grey70", lwd=0.5)
     
-    points(date.locs$height.from.dist ~ date.locs$date, pch=16, cex=0.5, col="grey70")
-    
-    bacon.dirs <- paste0("/home/timothy/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/Bacon_runs/",
+    bacon.dirs <- paste0("/Users/uqtstapl/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/Bacon_runs/",
                          date.order[n])
     bacon.files <- list.files(bacon.dirs, pattern="_ages")
     bacon.ages <- read.table(paste0(bacon.dirs, "/", bacon.files), header=TRUE)
-    bacon.ages$height <- -((bacon.ages$depth / 100) - max(date.locs$height.from.dist))
+    
+    heightDepth = list.files(bacon.dirs, pattern="depthsDist.txt")
+    bacon.dist.height = unlist(read.table(paste0(bacon.dirs, "/", heightDepth)))
+    bacon.ages$height <- (max(bacon.dist.height) - bacon.ages$depth) / 100
     
     polygon(y=c(bacon.ages$height, rev(bacon.ages$height)),
             x = c(bacon.ages$max, rev(bacon.ages$min)),
@@ -300,6 +307,15 @@ siteMapPlot <- function(path){
     lines(y=bacon.ages$height, x=bacon.ages$mean, lwd=1, col=temp.col)
     
     sub.tran <- huon_site[huon_site$locality == temp.loc, ]
+    sub.tran = sub.tran[order(sub.tran$transect.age, decreasing=TRUE),]
+    
+    tranHeight = as.numeric(gsub("\\+AC0","", Tpng$height.from.dist[match(sub.tran$transect, Tpng$transect)]))
+
+    segments(x0 = sub.tran$transect.age, x1=sub.tran$transect.age,
+             y0= tranHeight + 1, y1=tranHeight - 0.5,
+             col=temp.col, lwd=0.5)
+    text(x = sub.tran$transect.age, y = tranHeight + 0.5,
+             col=temp.col, labels= 1:length(tranHeight), pos=3, offset=0.2, cex=0.7)
     
     # tran.width <- abs(relative.axis.point(0.03, "y") - relative.axis.point(0, "y"))
     # segments(x0=sub.tran$height.from.dist,
@@ -316,12 +332,76 @@ siteMapPlot <- function(path){
     box()
     
     close.screen(n+2)
+  })
+  
+  #              temp/sea level plot ####
+  
+  screen(12)
+  par(mar=c(0,0,0,0), mgp=c(3,0.5,0))
+  load("./raw.datafiles/Temp12k_v1_0_0.RData")
+  meta <- read.csv("./raw.datafiles/41597_2020_445_MOESM1_ESM.csv")
+  
+  Tpng<-read.csv("/Users/uqtstapl/Dropbox/Tim/Post-doc/Research projects/huon_cleaning/raw.datafiles/huon.transect.csv",
+                 stringsAsFactors = FALSE)
+  meanCoords<-colMeans(Tpng[!duplicated(Tpng$locality),c("latitude", "longitude")])
+  
+  tempDist <- gc.dist(meanCoords[1], meanCoords[2],
+                      meta$Latitude...., meta$Longitude....)
+  closestMeta <- meta[which.min(tempDist),]
+  
+  tempData <- D[["RR1313_23PC.MoffaSanchez.2019"]]
+  tempData <- tempData$paleoData[[1]]$measurementTable
+  tempData <- cbind(tempData[[1]]$age$values,
+                    tempData[[1]]$`temperature-1`$values)
+  tempData <- tempData[tempData[,1] > -1000 &
+                       tempData[,1] < 11000,]
+  
+  rsl <- read.csv("./raw.datafiles/lambecketal.csv", header=FALSE)
+  
+  plot(x=NULL, y=NULL, xlim=c(max(tempData[,1]), 0), ylim=range(tempData[,2]),
+       xaxt="n", xlab="", ylab="", yaxt="n")
+  
+  sitePos <- seq(relative.axis.point(0.15, "y"), relative.axis.point(0.85, "y"), len=length(date.order))
+  sapply(1:9, function(n){
     
+    temp.loc <- locality.number$locality[locality.number$number==n]
+    subAge <- range(huon_site$transect.age[huon_site$locality == temp.loc])
+    
+    temp.col <- loc.color$col[loc.color$locality == temp.loc & !is.na(loc.color$locality)]
+    
+    segments(x0=subAge[1], x1=subAge[2], y0=sitePos[n], y1=sitePos[n],
+             col=temp.col, lwd=2)
+    text(x=subAge[1], y=sitePos[n], labels=locality.number$number[locality.number$locality==temp.loc],
+         pos=4, font=2, col=temp.col, offset=0.2)
     
   })
+  rect(xleft=par("usr")[1], xright=par("usr")[2],
+       ybottom=par("usr")[3], ytop=par("usr")[4],
+       border=NA, col=rgb(1,1,1,0.5))
+  
+  axis(side=2, at=28:32, mgp=c(3,0.2,0))
+  mtext(side=2, line=0.75, text=expression("Sea temperature ("*degree*"C)"), las=0)
+  mtext(side=1, line=0.25, text="Thousands of years before present")
+  axis(side=1, at=seq(0,15000,1000), labels=seq(0,15000,1000)/1000, mgp=c(0,-0.2,0))
+  points(tempData, pch=16, cex=0.5)
+  lines(tempData, type="l")
+  close.screen(12)
+  
+  screen(13)
+  par(mar=c(0,0,0,0), mgp=c(3,0.5,0))
+  plot(x=NULL, y=NULL, xlim=c(max(tempData[,1]), 0), ylim=range(rsl$V2[rsl$V1<11]),axes=FALSE,
+       xlab="", ylab="")
+  axis(side=4, mgp=c(3,0.25,0), col.ticks="grey", col="grey", col.axis="grey")
+  mtext(side=4, line=0.75, text="Relative sea level (m)", las=0, col="grey")
+  points(x=rsl$V1*1000, y=rsl$V2, pch=16, cex=0.5, col="grey")
+  lines(y=rsl$V2, x=rsl$V1*1000,
+        col="grey")
+  text(x=relative.axis.point(0.01, "x"),
+       y=relative.axis.point(0.925, "y"),
+       adj=0, labels="(K)", font=2)
+  box()
+  close.screen(13)
   close.screen(all.screens=TRUE)
   
   dev.off()
-  
-  
 }

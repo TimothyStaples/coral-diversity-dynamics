@@ -1,394 +1,232 @@
-"","transect","raw","date","sigma","site","locality","height.from.dist","height.ord","dist.from.top"
-"1","1","8680 67",8680,67,"Kanomi","Pukau SE",-0.5,"1","2"
-"2","1","8634 66",8634,66,"Kanomi","Pukau SE",-0.5,"1","2"
-"3","1","9211 67",9211,67,"Kanomi","Pukau SE",-0.5,"1","2"
-"4","1","8584 65",8584,65,"Kanomi","Pukau SE",-0.5,"1","2"
-"5","1","8619 65",8619,65,"Kanomi","Pukau SE",-0.5,"1","2"
-"6","3","8336 65",8336,65,"Kanomi","Pukau SE",1,"2","0.5"
-"7","3","8390      70",8390,70,"Kanomi","Pukau SE",1,"2","0.5"
-"8","3","8220      60",8220,60,"Kanomi","Pukau SE",1,"2","0.5"
-"9","4","8156 50",8156,50,"Sialum","Kilasairo River NW",1,"1","8"
-"10","4","7860 42",7860,42,"Sialum","Kilasairo River NW",1,"1","8"
-"11","4","7968 47",7968,47,"Sialum","Kilasairo River NW",1,"1","8"
-"12","4","7843 57",7843,57,"Sialum","Kilasairo River NW",1,"1","8"
-"13","4","8094 53",8094,53,"Sialum","Kilasairo River NW",1,"1","8"
-"14","4","8070 52",8070,52,"Sialum","Kilasairo River NW",1,"1","8"
-"15","4","7936 41",7936,41,"Sialum","Kilasairo River NW",1,"1","8"
-"16","4","7811 83",7811,83,"Sialum","Kilasairo River NW",1,"1","8"
-"17","4","7930 140",7930,140,"Sialum","Kilasairo River NW",1,"1","8"
-"18","4","8082 93",8082,93,"Sialum","Kilasairo River NW",1,"1","8"
-"19","4","7720 69",7720,69,"Sialum","Kilasairo River NW",1,"1","8"
-"20","4","8095 59",8095,59,"Sialum","Kilasairo River NW",1,"1","8"
-"21","4","8355 64",8355,64,"Sialum","Kilasairo River NW",1,"1","8"
-"22","4","8143 61",8143,61,"Sialum","Kilasairo River NW",1,"1","8"
-"23","4","8110 60",8110,60,"Sialum","Kilasairo River NW",1,"1","8"
-"24","4","8032 48",8032,48,"Sialum","Kilasairo River NW",1,"1","8"
-"25","4","8133 51",8133,51,"Sialum","Kilasairo River NW",1,"1","8"
-"26","4","8230 180",8230,180,"Sialum","Kilasairo River NW",1,"1","8"
-"27","4","7867 90",7867,90,"Sialum","Kilasairo River NW",1,"1","8"
-"28","4","7933 83",7933,83,"Sialum","Kilasairo River NW",1,"1","8"
-"29","4","7970 45",7970,45,"Sialum","Kilasairo River NW",1,"1","8"
-"30","4","8037 45",8037,45,"Sialum","Kilasairo River NW",1,"1","8"
-"31","4","7955 58",7955,58,"Sialum","Kilasairo River NW",1,"1","8"
-"32","4","8026 47",8026,47,"Sialum","Kilasairo River NW",1,"1","8"
-"33","4","7906 65",7906,65,"Sialum","Kilasairo River NW",1,"1","8"
-"34","4","8042 64",8042,64,"Sialum","Kilasairo River NW",1,"1","8"
-"35","4","8673 83",8673,83,"Sialum","Kilasairo River NW",1,"1","8"
-"36","4","7972 63",7972,63,"Sialum","Kilasairo River NW",1,"1","8"
-"37","4","7792 49",7792,49,"Sialum","Kilasairo River NW",1,"1","8"
-"38","4","7378 41",7378,41,"Sialum","Kilasairo River NW",1,"1","8"
-"39","4","7700 140",7700,140,"Sialum","Kilasairo River NW",1,"1","8"
-"40","4","8080 63",8080,63,"Sialum","Kilasairo River NW",1,"1","8"
-"41","4","8026 64",8026,64,"Sialum","Kilasairo River NW",1,"1","8"
-"42","4","7772 71",7772,71,"Sialum","Kilasairo River NW",1,"1","8"
-"43","4","7432 41",7432,41,"Sialum","Kilasairo River NW",1,"1","8"
-"44","4","7429 57",7429,57,"Sialum","Kilasairo River NW",1,"1","8"
-"45","4","7110 47",7110,47,"Sialum","Kilasairo River NW",1,"1","8"
-"46","4","6722 59",6722,59,"Sialum","Kilasairo River NW",1,"1","8"
-"47","4","7113 61",7113,61,"Sialum","Kilasairo River NW",1,"1","8"
-"48","4","6436 62",6436,62,"Sialum","Kilasairo River NW",1,"1","8"
-"49","6","7338 47",7338,47,"Kanomi","Bonah River",1,"3","5.8"
-"50","6","7452 48",7452,48,"Kanomi","Bonah River",1,"3","5.8"
-"51","6","8053 69",8053,69,"Kanomi","Bonah River",1,"3","5.8"
-"52","6","8009 39",8009,39,"Kanomi","Bonah River",1,"3","5.8"
-"53","6","7985 47",7985,47,"Kanomi","Bonah River",1,"3","5.8"
-"54","6","8382 64",8382,64,"Kanomi","Bonah River",1,"3","5.8"
-"55","6","8400 69",8400,69,"Kanomi","Bonah River",1,"3","5.8"
-"56","6","8323 83",8323,83,"Kanomi","Bonah River",1,"3","5.8"
-"57","6","8386 52",8386,52,"Kanomi","Bonah River",1,"3","5.8"
-"58","6","8142 49",8142,49,"Kanomi","Bonah River",1,"3","5.8"
-"59","6","8287 55",8287,55,"Kanomi","Bonah River",1,"3","5.8"
-"60","6","8324 57",8324,57,"Kanomi","Bonah River",1,"3","5.8"
-"61","6","8164 55",8164,55,"Kanomi","Bonah River",1,"3","5.8"
-"62","6","6677 46",6677,46,"Kanomi","Bonah River",1,"3","5.8"
-"63","6","8364 63",8364,63,"Kanomi","Bonah River",1,"3","5.8"
-"64","6","8037 93",8037,93,"Kanomi","Bonah River",1,"3","5.8"
-"65","6","8387 66",8387,66,"Kanomi","Bonah River",1,"3","5.8"
-"66","6","8258 47",8258,47,"Kanomi","Bonah River",1,"3","5.8"
-"67","6","8199 63",8199,63,"Kanomi","Bonah River",1,"3","5.8"
-"68","6","8205 58",8205,58,"Kanomi","Bonah River",1,"3","5.8"
-"69","6","8388 60",8388,60,"Kanomi","Bonah River",1,"3","5.8"
-"70","6","8484 60",8484,60,"Kanomi","Bonah River",1,"3","5.8"
-"71","6","8294 52",8294,52,"Kanomi","Bonah River",1,"3","5.8"
-"72","6","8314 52",8314,52,"Kanomi","Bonah River",1,"3","5.8"
-"73","6","8284 60",8284,60,"Kanomi","Bonah River",1,"3","5.8"
-"74","6","7940      60",7940,60,"Kanomi","Bonah River",1,"3","5.8"
-"75","6","7930      80",7930,80,"Kanomi","Bonah River",1,"3","5.8"
-"76","6","7780      70",7780,70,"Kanomi","Bonah River",1,"3","5.8"
-"77","7","6730      60",6730,60,"Sialum","Kwambu Platforms",1,"1","6"
-"78","7","7430      60",7430,60,"Sialum","Kwambu Platforms",1,"1","6"
-"79","8","6300      60",6300,60,"Sialum","Kwangum River NW",1,"1","0"
-"80","8","6870      60",6870,60,"Sialum","Kwangum River NW",1,"1","0"
-"81","8","6280      80",6280,80,"Sialum","Kwangum River NW",1,"1","0"
-"82","10","8270 55",8270,55,"Kanomi","Paradise Springs",1,"1","4"
-"83","13","8723 59",8723,59,"Hubegong","Sang River SE",0.5,"3","0"
-"84","13","8749 53",8749,53,"Hubegong","Sang River SE",0.5,"3","0"
-"85","14","8147 50",8147,50,"Kanomi","Bonah River",2,"4","4.8"
-"86","14","8283 59",8283,59,"Kanomi","Bonah River",2,"4","4.8"
-"87","14","8000 57",8000,57,"Kanomi","Bonah River",2,"4","4.8"
-"88","15","8123 46",8123,46,"Kanomi","Bonah River",3,"5","3.8"
-"89","15","8641 56",8641,56,"Kanomi","Bonah River",3,"5","3.8"
-"90","16","8810 52",8810,52,"Hubegong","Loto Beach",-0.5,"1","9.5"
-"91","18","8112 67",8112,67,"Hubegong","Wondakai",-0.5,"1","1.5"
-"92","18","8913 60",8913,60,"Hubegong","Wondakai",-0.5,"1","1.5"
-"93","19","8727 76",8727,76,"Hubegong","Wondakai",1,"3","0"
-"94","20","7956 45",7956,45,"Kanomi","Bonah River",4,"6","2.8"
-"95","20","7872 62",7872,62,"Kanomi","Bonah River",4,"6","2.8"
-"96","21","7545 44",7545,44,"Kanomi","Bonah River",5,"7","1.8"
-"97","21","7475 54",7475,54,"Kanomi","Bonah River",5,"7","1.8"
-"98","22","7458 71",7458,71,"Kanomi","Bonah River",6,"8","0.8"
-"99","22","7411 54",7411,54,"Kanomi","Bonah River",6,"8","0.8"
-"100","23","6080 49",6080,49,"Kanomi","Bonah River",6.8,"9","0"
-"101","24","8516 53",8516,53,"Hubegong","Loto Beach",1,"3","8"
-"102","24","8558 72",8558,72,"Hubegong","Loto Beach",1,"3","8"
-"103","25","8617 66",8617,66,"Kanomi","Pukau SE",1.5,"3","0"
-"104","25","8605 66",8605,66,"Kanomi","Pukau SE",1.5,"3","0"
-"105","27","8508 43",8508,43,"Kanomi","Pukau NW",0.5,"2","8"
-"106","27","8841 56",8841,56,"Kanomi","Pukau NW",0.5,"2","8"
-"107","28","8664 64",8664,64,"Kanomi","Pukau NW",1.5,"4","6.5"
-"108","28","7873 64",7873,64,"Kanomi","Pukau NW",1.5,"4","6.5"
-"109","28","8375 50",8375,50,"Kanomi","Pukau NW",1.5,"4","6.5"
-"110","31","7569 41",7569,41,"Kanomi","Pukau NW",6,"6","4"
-"111","31","7600 48",7600,48,"Kanomi","Pukau NW",6,"6","4"
-"112","31","7430 64",7430,64,"Kanomi","Pukau NW",6,"6","4"
-"113","31","7579 47",7579,47,"Kanomi","Pukau NW",6,"6","4"
-"114","31","7393 68",7393,68,"Kanomi","Pukau NW",6,"6","4"
-"115","31","7238 47",7238,47,"Kanomi","Pukau NW",6,"6","4"
-"116","31","7565 49",7565,49,"Kanomi","Pukau NW",6,"6","4"
-"117","31","6660 44",6660,44,"Kanomi","Pukau NW",6,"6","4"
-"118","31","7223 73",7223,73,"Kanomi","Pukau NW",6,"6","4"
-"119","31","7179 40",7179,40,"Kanomi","Pukau NW",6,"6","4"
-"120","31","7190 58",7190,58,"Kanomi","Pukau NW",6,"6","4"
-"121","31","7180 59",7180,59,"Kanomi","Pukau NW",6,"6","4"
-"122","31","7255 41",7255,41,"Kanomi","Pukau NW",6,"6","4"
-"123","31","6714 45",6714,45,"Kanomi","Pukau NW",6,"6","4"
-"124","32","7992 60",7992,60,"Sialum","Kilasairo River SE",-1,"1","8"
-"125","32","8212 76",8212,76,"Sialum","Kilasairo River SE",-1,"1","8"
-"126","32","8068 58",8068,58,"Sialum","Kilasairo River SE",-1,"1","8"
-"127","32","8308 74",8308,74,"Sialum","Kilasairo River SE",-1,"1","8"
-"128","32","7204 56",7204,56,"Sialum","Kilasairo River SE",-1,"1","8"
-"129","32","8248 62",8248,62,"Sialum","Kilasairo River SE",-1,"1","8"
-"130","32","8036 94",8036,94,"Sialum","Kilasairo River SE",-1,"1","8"
-"131","33","7831 46",7831,46,"Kanomi","Pukau NW",7,"7","3"
-"132","33","6440 42",6440,42,"Kanomi","Pukau NW",7,"7","3"
-"133","34","3782 37",3782,37,"Kanomi","Pukau NW",8,"8","2"
-"134","34","7147 64",7147,64,"Kanomi","Pukau NW",8,"8","2"
-"135","34","8013 42",8013,42,"Kanomi","Pukau NW",8,"8","2"
-"136","35","6831 44",6831,44,"Kanomi","Pukau NW",9,"9","1"
-"137","35","7030 41",7030,41,"Kanomi","Pukau NW",9,"9","1"
-"138","36","6917 42",6917,42,"Kanomi","Pukau NW",10,"10","0"
-"139","36","6112 40",6112,40,"Kanomi","Pukau NW",10,"10","0"
-"140","36","6783 43",6783,43,"Kanomi","Pukau NW",10,"10","0"
-"141","38","8376 55",8376,55,"Kanomi","Pukau NW",2.5,"5","5.5"
-"142","39","7580 110",7580,110,"Hubegong","Loto Beach",9,"11","0"
-"143","39","8215 51",8215,51,"Hubegong","Loto Beach",9,"11","0"
-"144","40","7854 50",7854,50,"Hubegong","Loto Beach",8,"10","1"
-"145","41","7987 58",7987,58,"Hubegong","Loto Beach",7,"9","2"
-"146","42","8104 46",8104,46,"Hubegong","Loto Beach",6,"8","3"
-"147","43","8331 54",8331,54,"Hubegong","Loto Beach",5,"7","4"
-"148","43","8189 45",8189,45,"Hubegong","Loto Beach",5,"7","4"
-"149","43","8036 59",8036,59,"Hubegong","Loto Beach",5,"7","4"
-"150","43","7900 42",7900,42,"Hubegong","Loto Beach",5,"7","4"
-"151","43","7955 45",7955,45,"Hubegong","Loto Beach",5,"7","4"
-"152","43","8234 51",8234,51,"Hubegong","Loto Beach",5,"7","4"
-"153","43","7688 44",7688,44,"Hubegong","Loto Beach",5,"7","4"
-"154","43","8118 43",8118,43,"Hubegong","Loto Beach",5,"7","4"
-"155","43","8173 43",8173,43,"Hubegong","Loto Beach",5,"7","4"
-"156","43","7916 42",7916,42,"Hubegong","Loto Beach",5,"7","4"
-"157","43","7904 42",7904,42,"Hubegong","Loto Beach",5,"7","4"
-"158","43","7952 43",7952,43,"Hubegong","Loto Beach",5,"7","4"
-"159","43","7993 45",7993,45,"Hubegong","Loto Beach",5,"7","4"
-"160","43","7970 110",7970,110,"Hubegong","Loto Beach",5,"7","4"
-"161","43","7952 43",7952,43,"Hubegong","Loto Beach",5,"7","4"
-"162","43","7927 45",7927,45,"Hubegong","Loto Beach",5,"7","4"
-"163","43","8165 36",8165,36,"Hubegong","Loto Beach",5,"7","4"
-"164","43","8063 42",8063,42,"Hubegong","Loto Beach",5,"7","4"
-"165","44","8035 43",8035,43,"Hubegong","Loto Beach",4,"6","5"
-"166","46","8394 52",8394,52,"Hubegong","Loto Beach",2,"4","7"
-"167","47","8365 51",8365,51,"Hubegong","Sang River NW",4.5,"6","0"
-"168","47","9320 100",9320,100,"Hubegong","Sang River NW",4.5,"6","0"
-"169","47","8512 50",8512,50,"Hubegong","Sang River NW",4.5,"6","0"
-"170","47","8375 53",8375,53,"Hubegong","Sang River NW",4.5,"6","0"
-"171","47","8694 51",8694,51,"Hubegong","Sang River NW",4.5,"6","0"
-"172","47","8676 52",8676,52,"Hubegong","Sang River NW",4.5,"6","0"
-"173","47","9001 53",9001,53,"Hubegong","Sang River NW",4.5,"6","0"
-"174","52","7934 60",7934,60,"Hubegong","Midway Cove",7,"13","0"
-"175","53","8004 41",8004,41,"Hubegong","Midway Cove",5.5,"12","0.5"
-"176","54","8105 53",8105,53,"Hubegong","Midway Cove",4.5,"11","1.5"
-"177","55","8035 42",8035,42,"Hubegong","Midway Cove",3.5,"10","2.5"
-"178","55","8049 42",8049,42,"Hubegong","Midway Cove",3.5,"10","2.5"
-"179","56","7857 79",7857,79,"Hubegong","Midway Cove",2.5,"9","3.5"
-"180","56","8160 41",8160,41,"Hubegong","Midway Cove",2.5,"9","3.5"
-"181","57","7963 47",7963,47,"Hubegong","Midway Cove",1.5,"8","4.5"
-"182","58","8283 43",8283,43,"Hubegong","Midway Cove",0.5,"7","5.5"
-"183","58","8125 43",8125,43,"Hubegong","Midway Cove",0.5,"7","5.5"
-"184","59","8541 44",8541,44,"Hubegong","Midway Cove",0,"6","6.5"
-"185","59","8390 43",8390,43,"Hubegong","Midway Cove",0,"6","6.5"
-"186","59","8351 43",8351,43,"Hubegong","Midway Cove",0,"6","6.5"
-"187","59","8469 45",8469,45,"Hubegong","Midway Cove",0,"6","6.5"
-"188","60","8570 68",8570,68,"Hubegong","Midway Cove",-1,"5","7.5"
-"189","61","8808 55",8808,55,"Hubegong","Midway Cove",-2,"4","8.5"
-"190","62","8857 43",8857,43,"Hubegong","Midway Cove",-3,"3","9.5"
-"191","62","8540 44",8540,44,"Hubegong","Midway Cove",-3,"3","9.5"
-"192","64","9053 77",9053,77,"Hubegong","Midway Cove",-5,"1","11.5"
-"193","66","8602 51",8602,51,"Hubegong","NW Point",4,"4","9"
-"194","69","8783 48",8783,48,"Hubegong","NW Point",2,"2","11"
-"195","71","8589 42",8589,42,"Hubegong","NW Point",7,"7","6"
-"196","73","8040 70",8040,70,"Hubegong","NW Point",9,"9","4"
-"197","77","8016 40",8016,40,"Hubegong","NW Point",13,"13","0"
-"198","79","7957 52",7957,52,"Kanomi","Paradise Springs",3,"3","2"
-"199","83","8164 52",8164,52,"Sialum","Kilasairo River NW",3,"3","6"
-"200","84","8002 51",8002,51,"Sialum","Kilasairo River NW",4,"4","5"
-"201","85","7370 49",7370,49,"Sialum","Kilasairo River NW",5,"5","4"
-"202","86","7045 48",7045,48,"Sialum","Kilasairo River NW",6,"6","3"
-"203","87","8175 52",8175,52,"Sialum","Kilasairo River NW",2,"2","7"
-"204","88","6566 52",6566,52,"Sialum","Kilasairo River NW",7,"7","2"
-"205","89","6577 47",6577,47,"Sialum","Kilasairo River NW",8,"8","1"
-"206","89","6699 65",6699,65,"Sialum","Kilasairo River NW",8,"8","1"
-"207","90","6287 52",6287,52,"Sialum","Kilasairo River NW",9,"9","0"
-"208","91","7737 48",7737,48,"Sialum","Kilasairo River SE",1,"3","6"
-"209","92","7544 52",7544,52,"Sialum","Kilasairo River SE",2,"4","5"
-"210","93","7330 50",7330,50,"Sialum","Kilasairo River SE",3,"5","4"
-"211","94","7157 50",7157,50,"Sialum","Kilasairo River SE",4,"6","3"
-"212","95","7016 63",7016,63,"Sialum","Kilasairo River SE",5,"7","2"
-"213","95","6576 48",6576,48,"Sialum","Kilasairo River SE",5,"7","2"
-"214","96","6281 51",6281,51,"Sialum","Kilasairo River SE",6,"8","1"
-"215","96","6222 48",6222,48,"Sialum","Kilasairo River SE",6,"8","1"
-"216","97","6019 53",6019,53,"Sialum","Kilasairo River SE",7,"9","0"
-"217","98","7782 51",7782,51,"Sialum","Kwambu Platforms",3,"3","4"
-"218","98","7350 50",7350,50,"Sialum","Kwambu Platforms",3,"3","4"
-"219","99","7407 48",7407,48,"Sialum","Kwambu Platforms",4,"4","3"
-"220","100","7340 47",7340,47,"Sialum","Kwambu Platforms",5,"5","2"
-"221","101","7967 50",7967,50,"Kanomi","Paradise Springs",2,"2","3"
-"222","102","6959 47",6959,47,"Sialum","Kwambu Platforms",6,"6","1"
-"223","103","6942 46",6942,46,"Sialum","Kwambu Platforms",7,"7","0"
-"224","104","8086 49",8086,49,"Sialum","Kwambu Platforms",2,"2","5"
-"1100","1",NA,8619,65,"Kanomi","Pukau SE",-0.5,"1","2"
-"410","1",NA,8680,67,"Kanomi","Pukau SE",-0.5,"1","2"
-"610","2",NA,8073,43,"Kanomi","Bonah River",-1,"1","7.8"
-"810","2",NA,8180,45,"Kanomi","Bonah River",-1,"1","7.8"
-"910","2",NA,8268,44,"Kanomi","Bonah River",-1,"1","7.8"
-"1110","2",NA,8269,44,"Kanomi","Bonah River",-1,"1","7.8"
-"301","4",NA,8080,63,"Sialum","Kilasairo River NW",1,"1","8"
-"321","4",NA,7700,140,"Sialum","Kilasairo River NW",1,"1","8"
-"331","4",NA,7792,49,"Sialum","Kilasairo River NW",1,"1","8"
-"341","4",NA,8037,45,"Sialum","Kilasairo River NW",1,"1","8"
-"351","4",NA,8082,93,"Sialum","Kilasairo River NW",1,"1","8"
-"571","4",NA,8156,50,"Sialum","Kilasairo River NW",1,"1","8"
-"601","6",NA,7985,47,"Kanomi","Bonah River",1,"3","5.8"
-"711","6",NA,6677,46,"Kanomi","Bonah River",1,"3","5.8"
-"741","6",NA,7940,60,"Kanomi","Bonah River",1,"3","5.8"
-"751","6",NA,8142,49,"Kanomi","Bonah River",1,"3","5.8"
-"761","6",NA,8164,55,"Kanomi","Bonah River",1,"3","5.8"
-"771","6",NA,8199,63,"Kanomi","Bonah River",1,"3","5.8"
-"781","6",NA,8205,58,"Kanomi","Bonah River",1,"3","5.8"
-"791","6",NA,8258,47,"Kanomi","Bonah River",1,"3","5.8"
-"901","6",NA,8400,69,"Kanomi","Bonah River",1,"3","5.8"
-"931","6",NA,7780,70,"Kanomi","Bonah River",1,"3","5.8"
-"941","6",NA,8382,64,"Kanomi","Bonah River",1,"3","5.8"
-"971","7",NA,8100,70,"Sialum","Kwambu Platforms",1,"1","6"
-"1011","8",NA,6280,80,"Sialum","Kwangum River NW",1,"1","0"
-"1021","8",NA,6300,60,"Sialum","Kwangum River NW",1,"1","0"
-"1031","8",NA,6870,60,"Sialum","Kwangum River NW",1,"1","0"
-"1041","10",NA,8270,55,"Kanomi","Paradise Springs",1,"1","4"
-"1051","11",NA,8430,70,"Hubegong","Sang River SE",-0.5,"1","1"
-"1061","11",NA,8929,75,"Hubegong","Sang River SE",-0.5,"1","1"
-"1081","11",NA,9146,97,"Hubegong","Sang River SE",-0.5,"1","1"
-"1091","12",NA,8619,52,"Hubegong","Sang River SE",0,"2","0.5"
-"1311","22",NA,7411,54,"Kanomi","Bonah River",6,"8","0.8"
-"1341","24",NA,8285,47,"Hubegong","Loto Beach",1,"3","8"
-"1351","24",NA,8558,72,"Hubegong","Loto Beach",1,"3","8"
-"1361","24",NA,8516,53,"Hubegong","Loto Beach",1,"3","8"
-"1381","25",NA,8605,66,"Kanomi","Pukau SE",1.5,"3","0"
-"1391","27",NA,6558,42,"Kanomi","Pukau NW",0.5,"2","8"
-"1401","27",NA,7280,45,"Kanomi","Pukau NW",0.5,"2","8"
-"1411","27",NA,6851,40,"Kanomi","Pukau NW",0.5,"2","8"
-"1421","27",NA,7104,43,"Kanomi","Pukau NW",0.5,"2","8"
-"1431","27",NA,8508,43,"Kanomi","Pukau NW",0.5,"2","8"
-"1461","28",NA,8664,64,"Kanomi","Pukau NW",1.5,"4","6.5"
-"1481","31",NA,7190,58,"Kanomi","Pukau NW",6,"6","4"
-"1491","31",NA,7393,68,"Kanomi","Pukau NW",6,"6","4"
-"1971","43",NA,7970,110,"Hubegong","Loto Beach",5,"7","4"
-"1981","43",NA,7993,45,"Hubegong","Loto Beach",5,"7","4"
-"1991","43",NA,8036,59,"Hubegong","Loto Beach",5,"7","4"
-"2011","43",NA,8234,51,"Hubegong","Loto Beach",5,"7","4"
-"1101","9","8324 45",8324,45,"Kanomi","Bonah River",0,"2","6.8"
-"225",NA,"8326 43",8326,43,"Kanomi","Bonah River",0.2,NA,NA
-"310",NA,"8207 38",8207,38,"Kanomi","Bonah River",0.35,NA,NA
-"411",NA,"8269 44",8269,44,"Kanomi","Bonah River",0.5,NA,NA
-"510",NA,"8290 41",8290,41,"Kanomi","Bonah River",0.6,NA,NA
-"611",NA,"8180 45",8180,45,"Kanomi","Bonah River",0.7,NA,NA
-"710",NA,"8268 44",8268,44,"Kanomi","Bonah River",0.7,NA,NA
-"811",NA,"8382 64",8382,64,"Kanomi","Bonah River",0.7,NA,NA
-"911",NA,"8154 44",8154,44,"Kanomi","Bonah River",0.8,NA,NA
-"1010",NA,"8073 43",8073,43,"Kanomi","Bonah River",0.95,NA,NA
-"1111","6","8142 49",8142,49,"Kanomi","Bonah River",1,"3","5.8"
-"1210","6","8287 55",8287,55,"Kanomi","Bonah River",1,"3","5.8"
-"1310","6","8164 55",8164,55,"Kanomi","Bonah River",1,"3","5.8"
-"1410","6","8364 63",8364,63,"Kanomi","Bonah River",1,"3","5.8"
-"1510","6","8205 58",8205,58,"Kanomi","Bonah River",1,"3","5.8"
-"1610","6","8388 60",8388,60,"Kanomi","Bonah River",1,"3","5.8"
-"1710","6","8484 5560",8484,5560,"Kanomi","Bonah River",1,"3","5.8"
-"1810","6","8294 52",8294,52,"Kanomi","Bonah River",1,"3","5.8"
-"1910","6","8314 52",8314,52,"Kanomi","Bonah River",1,"3","5.8"
-"2010","6","8484 60",8484,60,"Kanomi","Bonah River",1,"3","5.8"
-"2110","6","8400 69",8400,69,"Kanomi","Bonah River",1,"3","5.8"
-"226","6","8323 83",8323,83,"Kanomi","Bonah River",1,"3","5.8"
-"231","6","8386 52",8386,52,"Kanomi","Bonah River",1,"3","5.8"
-"241","6","8324 57",8324,57,"Kanomi","Bonah River",1,"3","5.8"
-"251","6","8053 69",8053,69,"Kanomi","Bonah River",1,"3","5.8"
-"261",NA,"8031 61",8031,61,"Kanomi","Bonah River",1.1,NA,NA
-"271",NA,"8037 93",8037,93,"Kanomi","Bonah River",1.2,NA,NA
-"281",NA,"8270 43",8270,43,"Kanomi","Bonah River",1.2,NA,NA
-"291",NA,"8189 49",8189,49,"Kanomi","Bonah River",1.25,NA,NA
-"302",NA,"8305 47",8305,47,"Kanomi","Bonah River",1.35,NA,NA
-"311",NA,"8318 47",8318,47,"Kanomi","Bonah River",1.5,NA,NA
-"322",NA,"8456 69",8456,69,"Kanomi","Bonah River",1.7,NA,NA
-"332",NA,"8360 64",8360,64,"Kanomi","Bonah River",1.8,NA,NA
-"342",NA,"8339 49",8339,49,"Kanomi","Bonah River",1.9,NA,NA
-"352","14","8000 57",8000,57,"Kanomi","Bonah River",2,"4","4.8"
-"361","14","8147 50",8147,50,"Kanomi","Bonah River",2,"4","4.8"
-"371",NA,"8262 50",8262,50,"Kanomi","Bonah River",2.1,NA,NA
-"381",NA,"8577 51",8577,51,"Kanomi","Bonah River",2.5,NA,NA
-"391","15","8123 46",8123,46,"Kanomi","Bonah River",3,"5","3.8"
-"401","15","8641 56",8641,56,"Kanomi","Bonah River",3,"5","3.8"
-"412",NA,"8327 46",8327,46,"Kanomi","Bonah River",3.1,NA,NA
-"421","20","7872 62",7872,62,"Kanomi","Bonah River",4,"6","2.8"
-"431","20","7956 45",7956,45,"Kanomi","Bonah River",4,"6","2.8"
-"441","20","7956 45",7956,45,"Kanomi","Bonah River",4,"6","2.8"
-"451","21","7475 54",7475,54,"Kanomi","Bonah River",5,"7","1.8"
-"461","21","7545 44",7545,44,"Kanomi","Bonah River",5,"7","1.8"
-"471","22","7411 54",7411,54,"Kanomi","Bonah River",6,"8","0.8"
-"481",NA,"6080 49",6080,49,"Kanomi","Bonah River",7,NA,NA
-"491",NA,"8156 50",8156,50,"Sialum","Kilasairo River NW",0.1,NA,NA
-"501",NA,"7906 65",7906,65,"Sialum","Kilasairo River NW",0.5,NA,NA
-"511",NA,"8042 64",8042,64,"Sialum","Kilasairo River NW",0.65,NA,NA
-"521",NA,"7972 63",7972,63,"Sialum","Kilasairo River NW",0.85,NA,NA
-"531",NA,"8673 83",8673,83,"Sialum","Kilasairo River NW",0.9,NA,NA
-"541",NA,"8026 47",8026,47,"Sialum","Kilasairo River NW",0.92,NA,NA
-"551","4","7860 42",7860,42,"Sialum","Kilasairo River NW",1,"1","8"
-"561","4","7955 58",7955,58,"Sialum","Kilasairo River NW",1,"1","8"
-"572","4","7867 90",7867,90,"Sialum","Kilasairo River NW",1,"1","8"
-"581","4","7936 41",7936,41,"Sialum","Kilasairo River NW",1,"1","8"
-"591","4","7968 47",7968,47,"Sialum","Kilasairo River NW",1,"1","8"
-"602","4","8133 51",8133,51,"Sialum","Kilasairo River NW",1,"1","8"
-"612","4","8094 53",8094,53,"Sialum","Kilasairo River NW",1,"1","8"
-"621","4","8070 52",8070,52,"Sialum","Kilasairo River NW",1,"1","8"
-"631","4","7933 83",7933,83,"Sialum","Kilasairo River NW",1,"1","8"
-"641","4","8095 59",8095,59,"Sialum","Kilasairo River NW",1,"1","8"
-"651","4","8230 180",8230,180,"Sialum","Kilasairo River NW",1,"1","8"
-"661","4","8110 60",8110,60,"Sialum","Kilasairo River NW",1,"1","8"
-"671","4","8032 48",8032,48,"Sialum","Kilasairo River NW",1,"1","8"
-"681","4","7970 45",7970,45,"Sialum","Kilasairo River NW",1,"1","8"
-"691",NA,"8037 45",8037,45,"Sialum","Kilasairo River NW",1.08,NA,NA
-"701",NA,"7792 49",7792,49,"Sialum","Kilasairo River NW",1.15,NA,NA
-"712",NA,"7378 41",7378,41,"Sialum","Kilasairo River NW",1.4,NA,NA
-"721",NA,"7700 140",7700,140,"Sialum","Kilasairo River NW",1.4,NA,NA
-"731",NA,"8080 63",8080,63,"Sialum","Kilasairo River NW",1.6,NA,NA
-"742",NA,"8026 64",8026,64,"Sialum","Kilasairo River NW",1.6,NA,NA
-"752","87","8175 52",8175,52,"Sialum","Kilasairo River NW",2,"2","7"
-"762",NA,"7772 71",7772,71,"Sialum","Kilasairo River NW",2.1,NA,NA
-"772",NA,"7432 41",7432,41,"Sialum","Kilasairo River NW",2.8,NA,NA
-"782","83","8164 52",8164,52,"Sialum","Kilasairo River NW",3,"3","6"
-"792",NA,"7113 61",7113,61,"Sialum","Kilasairo River NW",3.3,NA,NA
-"801",NA,"7429 57",7429,57,"Sialum","Kilasairo River NW",3.3,NA,NA
-"821",NA,"6436 62",6436,62,"Sialum","Kilasairo River NW",4.4,NA,NA
-"831",NA,"6722 59",6722,59,"Sialum","Kilasairo River NW",4.8,NA,NA
-"841","85","7370 49",7370,49,"Sialum","Kilasairo River NW",5,"5","4"
-"851","86","7045 48",7045,48,"Sialum","Kilasairo River NW",6,"6","3"
-"861","88","6566 52",6566,52,"Sialum","Kilasairo River NW",7,"7","2"
-"871","89","6699 65",6699,65,"Sialum","Kilasairo River NW",8,"8","1"
-"881","89","6577 47",6577,47,"Sialum","Kilasairo River NW",8,"8","1"
-"891","90","6287 52",6287,52,"Sialum","Kilasairo River NW",9,"9","0"
-"902",NA,"8365   51",8365,51,"Hubegong","Loto Beach",0.5,NA,NA
-"912",NA,"8394   52",8394,52,"Hubegong","Loto Beach",1.5,NA,NA
-"921",NA,"8375   53",8375,53,"Hubegong","Loto Beach",1.8,NA,NA
-"932","46","8339   51",8339,51,"Hubegong","Loto Beach",2,"4","7"
-"942",NA,"8285   47",8285,47,"Hubegong","Loto Beach",2.4,NA,NA
-"951",NA,"8346   49",8346,49,"Hubegong","Loto Beach",2.9,NA,NA
-"961",NA,"8337   54",8337,54,"Hubegong","Loto Beach",3.25,NA,NA
-"972",NA,"8225    47",8225,47,"Hubegong","Loto Beach",3.95,NA,NA
-"981","44","8035   43",8035,43,"Hubegong","Loto Beach",4,"6","5"
-"991",NA,"8165   51",8165,51,"Hubegong","Loto Beach",4.75,NA,NA
-"1001",NA,"7916   42",7916,42,"Hubegong","Loto Beach",4.9,NA,NA
-"1012",NA,"7970 110",7970,110,"Hubegong","Loto Beach",4.95,NA,NA
-"1022","43","7900   42",7900,42,"Hubegong","Loto Beach",5,"7","4"
-"1032","43","8331   54",8331,54,"Hubegong","Loto Beach",5,"7","4"
-"1042","43","7955   45",7955,45,"Hubegong","Loto Beach",5,"7","4"
-"1052","43","8036   59",8036,59,"Hubegong","Loto Beach",5,"7","4"
-"1062","43","7927   45",7927,45,"Hubegong","Loto Beach",5,"7","4"
-"1071","43","7952   43",7952,43,"Hubegong","Loto Beach",5,"7","4"
-"1082","43","8189   45",8189,45,"Hubegong","Loto Beach",5,"7","4"
-"1092","43","8118   43",8118,43,"Hubegong","Loto Beach",5,"7","4"
-"1102","43","8173   43",8173,43,"Hubegong","Loto Beach",5,"7","4"
-"1112","43","7993   45",7993,45,"Hubegong","Loto Beach",5,"7","4"
-"1121","43","7952   43",7952,43,"Hubegong","Loto Beach",5,"7","4"
-"1131","43","8063   42",8063,42,"Hubegong","Loto Beach",5,"7","4"
-"1141",NA,"8165   36",8165,36,"Hubegong","Loto Beach",5.05,NA,NA
-"1151",NA,"7952   44",7952,44,"Hubegong","Loto Beach",5.05,NA,NA
-"1161",NA,"8234   51",8234,51,"Hubegong","Loto Beach",5.1,NA,NA
-"1171",NA,"7904   42",7904,42,"Hubegong","Loto Beach",5.1,NA,NA
-"1181","42","7533   49",7533,49,"Hubegong","Loto Beach",6,"8","3"
-"1191",NA,"8064   42",8064,42,"Hubegong","Loto Beach",6.25,NA,NA
-"1201",NA,"7601   83",7601,83,"Hubegong","Loto Beach",6.9,NA,NA
-"1211","40","7817   50",7817,50,"Hubegong","Loto Beach",8,"10","1"
+locality,site,siteNumber,date,sigma,heightFromDist,removedPriorToModelling,calDate,calSigma
+Hubegong,Midway Cove,1,7934,60,7,FALSE,8220.89,90.41
+Hubegong,Midway Cove,1,8004,41,5.5,FALSE,8291.62,74.19
+Hubegong,Midway Cove,1,8105,53,4.5,FALSE,8406.86,84.96
+Hubegong,Midway Cove,1,8035,42,3.5,FALSE,8324.68,76.56
+Hubegong,Midway Cove,1,8049,42,3.5,FALSE,8340.58,77.38
+Hubegong,Midway Cove,1,8160,41,2.5,FALSE,8464.32,75.83
+Hubegong,Midway Cove,1,7857,79,2.5,FALSE,8142.08,105.25
+Hubegong,Midway Cove,1,7963,47,1.5,FALSE,8251.37,78.83
+Hubegong,Midway Cove,1,8283,43,0.5,FALSE,8618.17,101.72
+Hubegong,Midway Cove,1,8125,43,0.5,FALSE,8428.24,76.60
+Hubegong,Midway Cove,1,8351,43,0,FALSE,8714.33,105.54
+Hubegong,Midway Cove,1,8390,43,0,FALSE,8764.98,104.88
+Hubegong,Midway Cove,1,8469,45,0,FALSE,8862.02,102.49
+Hubegong,Midway Cove,1,8541,44,0,FALSE,8967.49,103.77
+Hubegong,Midway Cove,1,8570,68,-1,FALSE,9009.36,125.97
+Hubegong,Midway Cove,1,8808,55,-2,FALSE,9300.65,95.52
+Hubegong,Midway Cove,1,8857,43,-3,FALSE,9356.91,79.18
+Hubegong,Midway Cove,1,8540,44,-3,FALSE,8965.89,103.85
+Hubegong,Midway Cove,1,9053,77,-5,FALSE,9594.08,120.27
+Hubegong,NW Point,2,8602,51,4,FALSE,9059.16,103.31
+Hubegong,NW Point,2,8783,48,2,FALSE,9273.78,94.41
+Hubegong,NW Point,2,8589,42,7,FALSE,9042.13,96.92
+Hubegong,NW Point,2,8040,70,9,FALSE,8331.80,98.98
+Hubegong,NW Point,2,8016,40,13,FALSE,8303.84,74.15
+Hubegong,Loto Beach,3,8810,52,-0.5,FALSE,9303.75,93.15
+Hubegong,Loto Beach,3,8516,53,1,FALSE,8926.83,111.89
+Hubegong,Loto Beach,3,8558,72,1,FALSE,8990.16,131.37
+Hubegong,Loto Beach,3,7580,110,9,FALSE,7855.38,127.85
+Hubegong,Loto Beach,3,8215,51,9,FALSE,8528.11,94.14
+Hubegong,Loto Beach,3,7854,50,8,FALSE,8137.86,87.21
+Hubegong,Loto Beach,3,7987,58,7,FALSE,8273.98,86.35
+Hubegong,Loto Beach,3,8104,46,6,FALSE,8405.40,79.71
+Hubegong,Loto Beach,3,8331,54,5,FALSE,8688.73,113.53
+Hubegong,Loto Beach,3,8189,45,5,FALSE,8495.72,82.85
+Hubegong,Loto Beach,3,8036,59,5,FALSE,8326.57,89.38
+Hubegong,Loto Beach,3,7900,42,5,FALSE,8188.11,82.80
+Hubegong,Loto Beach,3,7955,45,5,FALSE,8244.00,78.18
+Hubegong,Loto Beach,3,8234,51,5,FALSE,8552.23,99.00
+Hubegong,Loto Beach,3,7688,44,5,FALSE,7966.47,80.74
+Hubegong,Loto Beach,3,8118,43,5,FALSE,8420.77,76.87
+Hubegong,Loto Beach,3,8173,43,5,FALSE,8478.02,78.58
+Hubegong,Loto Beach,3,7916,42,5,FALSE,8205.25,81.05
+Hubegong,Loto Beach,3,7904,42,5,FALSE,8192.52,82.35
+Hubegong,Loto Beach,3,7952,43,5,FALSE,8241.39,77.18
+Hubegong,Loto Beach,3,7993,45,5,FALSE,8280.65,76.62
+Hubegong,Loto Beach,3,7970,110,5,FALSE,8256.68,133.67
+Hubegong,Loto Beach,3,7927,45,5,FALSE,8216.17,81.42
+Hubegong,Loto Beach,3,8165,36,5,FALSE,8468.61,72.72
+Hubegong,Loto Beach,3,8063,42,5,FALSE,8357.07,77.84
+Hubegong,Loto Beach,3,8035,43,4,FALSE,8324.64,77.27
+Hubegong,Loto Beach,3,8394,52,2,FALSE,8769.04,110.33
+Hubegong,Loto Beach,3,8365,51,0.5,FALSE,8733.17,111.07
+Hubegong,Loto Beach,3,8375,53,1.8,FALSE,8745.78,111.86
+Hubegong,Loto Beach,3,8339,51,2,FALSE,8699.20,111.28
+Hubegong,Loto Beach,3,8285,47,2.4,FALSE,8622.26,105.24
+Hubegong,Loto Beach,3,8346,49,2.9,FALSE,8708.22,109.85
+Hubegong,Loto Beach,3,8337,54,3.25,FALSE,8696.96,113.68
+Hubegong,Loto Beach,3,8225,47,3.95,FALSE,8538.86,93.11
+Hubegong,Loto Beach,3,8165,51,4.75,FALSE,8471.50,84.30
+Hubegong,Loto Beach,3,7952,44,5.05,FALSE,8241.11,77.82
+Hubegong,Loto Beach,3,7533,49,6,FALSE,7807.07,80.35
+Hubegong,Loto Beach,3,8064,42,6.25,FALSE,8358.18,77.74
+Hubegong,Loto Beach,3,7601,83,6.9,FALSE,7873.92,106.21
+Hubegong,Loto Beach,3,7817,50,8,FALSE,8099.99,84.45
+Kanomi,Pukau NW,4,8508,43,0.5,FALSE,8916.00,102.00
+Kanomi,Pukau NW,4,8841,56,0.5,FALSE,9336.14,91.27
+Kanomi,Pukau NW,4,8664,64,1.5,FALSE,9135.37,109.00
+Kanomi,Pukau NW,4,7873,64,1.5,FALSE,8158.14,95.49
+Kanomi,Pukau NW,4,8375,50,1.5,FALSE,8745.82,109.93
+Kanomi,Pukau NW,4,7569,41,6,FALSE,7841.57,75.48
+Kanomi,Pukau NW,4,7600,48,6,FALSE,7871.69,79.47
+Kanomi,Pukau NW,4,7430,64,6,FALSE,7711.01,89.06
+Kanomi,Pukau NW,4,7579,47,6,FALSE,7851.11,78.71
+Kanomi,Pukau NW,4,7393,68,6,FALSE,7675.87,91.31
+Kanomi,Pukau NW,4,7238,47,6,FALSE,7526.19,72.14
+Kanomi,Pukau NW,4,7565,49,6,FALSE,7837.39,79.95
+Kanomi,Pukau NW,4,6660,44,6,FALSE,6958.35,95.99
+Kanomi,Pukau NW,4,7223,73,6,FALSE,7513.66,88.96
+Kanomi,Pukau NW,4,7179,40,6,FALSE,7474.99,69.29
+Kanomi,Pukau NW,4,7190,58,6,FALSE,7484.05,78.88
+Kanomi,Pukau NW,4,7180,59,6,FALSE,7475.17,79.77
+Kanomi,Pukau NW,4,7255,41,6,FALSE,7540.80,69.62
+Kanomi,Pukau NW,4,6714,45,6,FALSE,7018.71,92.85
+Kanomi,Pukau NW,4,7831,46,7,FALSE,8113.39,83.17
+Kanomi,Pukau NW,4,6440,42,7,FALSE,6702.88,90.85
+Kanomi,Pukau NW,4,3782,37,8,FALSE,3549.00,83.98
+Kanomi,Pukau NW,4,7147,64,8,FALSE,7445.21,83.97
+Kanomi,Pukau NW,4,8013,42,8,FALSE,8300.86,75.35
+Kanomi,Pukau NW,4,6831,44,9,FALSE,7140.94,87.54
+Kanomi,Pukau NW,4,7030,41,9,FALSE,7339.51,72.67
+Kanomi,Pukau NW,4,6917,42,10,FALSE,7232.81,80.75
+Kanomi,Pukau NW,4,6112,40,10,FALSE,6344.46,78.43
+Kanomi,Pukau NW,4,6783,43,10,FALSE,7090.34,88.22
+Kanomi,Pukau NW,4,8376,55,2.5,FALSE,8747.01,113.26
+Kanomi,Paradise Springs,5,8270,55,1,FALSE,8603.39,109.96
+Kanomi,Paradise Springs,5,7957,52,3,FALSE,8245.03,82.80
+Kanomi,Paradise Springs,5,7967,50,2,FALSE,8254.98,80.67
+Kanomi,Bonah River,6,7338,47,1,TRUE,7619.82,76.28
+Kanomi,Bonah River,6,7452,48,1,TRUE,7730.82,79.88
+Kanomi,Bonah River,6,8053,69,1,FALSE,8346.67,98.50
+Kanomi,Bonah River,6,8009,39,1,FALSE,8296.69,73.13
+Kanomi,Bonah River,6,7985,47,1,FALSE,8272.60,78.08
+Kanomi,Bonah River,6,8382,64,1,FALSE,8754.05,119.74
+Kanomi,Bonah River,6,8400,69,1,FALSE,8775.19,123.25
+Kanomi,Bonah River,6,8323,83,1,FALSE,8682.21,137.34
+Kanomi,Bonah River,6,8386,52,1,FALSE,8759.52,110.78
+Kanomi,Bonah River,6,8142,49,1,FALSE,8447.01,81.11
+Kanomi,Bonah River,6,8287,55,1,FALSE,8627.50,112.23
+Kanomi,Bonah River,6,8324,57,1,FALSE,8679.78,115.94
+Kanomi,Bonah River,6,8164,55,1,FALSE,8471.47,88.02
+Kanomi,Bonah River,6,6677,46,1,TRUE,6977.63,96.19
+Kanomi,Bonah River,6,8364,63,1,FALSE,8732.35,119.85
+Kanomi,Bonah River,6,8037,93,1,FALSE,8330.15,120.99
+Kanomi,Bonah River,6,8387,66,1,FALSE,8759.76,121.29
+Kanomi,Bonah River,6,8258,47,1,FALSE,8583.50,100.82
+Kanomi,Bonah River,6,8199,63,1,FALSE,8513.90,102.12
+Kanomi,Bonah River,6,8205,58,1,FALSE,8518.87,98.44
+Kanomi,Bonah River,6,8388,60,1,FALSE,8761.42,116.44
+Kanomi,Bonah River,6,8484,60,1,FALSE,8880.18,116.78
+Kanomi,Bonah River,6,8294,52,1,FALSE,8636.78,110.45
+Kanomi,Bonah River,6,8314,52,1,FALSE,8665.15,111.63
+Kanomi,Bonah River,6,8284,60,1,FALSE,8625.06,116.21
+Kanomi,Bonah River,6,7940,60,1,FALSE,8226.87,89.92
+Kanomi,Bonah River,6,7930,80,1,FALSE,8214.84,105.38
+Kanomi,Bonah River,6,7780,70,1,FALSE,8065.71,97.47
+Kanomi,Bonah River,6,8147,50,2,FALSE,8452.39,82.06
+Kanomi,Bonah River,6,8283,59,2,FALSE,8623.26,115.12
+Kanomi,Bonah River,6,8000,57,2,FALSE,8287.36,85.87
+Kanomi,Bonah River,6,8123,46,3,FALSE,8426.41,78.80
+Kanomi,Bonah River,6,8641,56,3,FALSE,9108.43,103.20
+Kanomi,Bonah River,6,7956,45,4,FALSE,8244.93,77.90
+Kanomi,Bonah River,6,7872,62,4,FALSE,8157.14,94.40
+Kanomi,Bonah River,6,7545,44,5,FALSE,7818.81,77.50
+Kanomi,Bonah River,6,7475,54,5,FALSE,7752.78,83.25
+Kanomi,Bonah River,6,7458,71,6,FALSE,7737.74,93.54
+Kanomi,Bonah River,6,7411,54,6,FALSE,7691.85,82.57
+Kanomi,Bonah River,6,6080,49,6.8,FALSE,6311.87,84.19
+Kanomi,Bonah River,6,8324,45,0,FALSE,8677.62,106.55
+Kanomi,Bonah River,6,8326,43,0.2,FALSE,8680.03,105.07
+Kanomi,Bonah River,6,8207,38,0.35,FALSE,8513.69,81.22
+Kanomi,Bonah River,6,8269,44,0.5,FALSE,8598.10,100.59
+Kanomi,Bonah River,6,8290,41,0.6,FALSE,8627.96,100.99
+Kanomi,Bonah River,6,8180,45,0.7,FALSE,8485.85,81.26
+Kanomi,Bonah River,6,8268,44,0.7,FALSE,8596.57,100.21
+Kanomi,Bonah River,6,8154,44,0.8,FALSE,8458.73,77.49
+Kanomi,Bonah River,6,8073,43,0.95,FALSE,8369.11,78.56
+Kanomi,Bonah River,6,8031,61,1.1,FALSE,8320.98,90.63
+Kanomi,Bonah River,6,8270,43,1.2,FALSE,8599.27,99.88
+Kanomi,Bonah River,6,8189,49,1.25,FALSE,8496.96,86.13
+Kanomi,Bonah River,6,8305,47,1.35,FALSE,8651.38,107.14
+Kanomi,Bonah River,6,8318,47,1.5,FALSE,8669.57,107.86
+Kanomi,Bonah River,6,8456,69,1.7,FALSE,8842.59,123.75
+Kanomi,Bonah River,6,8360,64,1.8,FALSE,8727.22,120.79
+Kanomi,Bonah River,6,8339,49,1.9,FALSE,8698.97,109.91
+Kanomi,Bonah River,6,8262,50,2.1,FALSE,8590.22,104.19
+Kanomi,Bonah River,6,8577,51,2.5,FALSE,9023.59,107.11
+Kanomi,Bonah River,6,8327,46,3.1,FALSE,8682.04,107.36
+Sialum,Kwambu Platforms,7,6730,60,1,TRUE,7033.86,101.22
+Sialum,Kwambu Platforms,7,7430,60,1,FALSE,7710.50,86.40
+Sialum,Kwambu Platforms,7,7782,51,3,FALSE,8066.07,83.45
+Sialum,Kwambu Platforms,7,7350,50,3,FALSE,7631.94,78.49
+Sialum,Kwambu Platforms,7,7407,48,4,FALSE,7687.45,78.97
+Sialum,Kwambu Platforms,7,7340,47,5,FALSE,7621.68,76.26
+Sialum,Kwambu Platforms,7,6959,47,6,FALSE,7274.38,80.15
+Sialum,Kwambu Platforms,7,6942,46,7,FALSE,7257.82,81.05
+Sialum,Kwambu Platforms,7,8086,49,2,FALSE,8384.62,82.56
+Sialum,Kilasairo River SE,8,7992,60,-1,FALSE,8279.06,88.16
+Sialum,Kilasairo River SE,8,8212,76,-1,FALSE,8535.95,118.94
+Sialum,Kilasairo River SE,8,8068,58,-1,FALSE,8363.84,89.67
+Sialum,Kilasairo River SE,8,8308,74,-1,FALSE,8661.49,129.75
+Sialum,Kilasairo River SE,8,7204,56,-1,TRUE,7496.45,77.35
+Sialum,Kilasairo River SE,8,8248,62,-1,FALSE,8576.02,112.48
+Sialum,Kilasairo River SE,8,8036,94,-1,FALSE,8328.80,121.97
+Sialum,Kilasairo River SE,8,7737,48,1,FALSE,8020.86,82.48
+Sialum,Kilasairo River SE,8,7544,52,2,FALSE,7817.45,81.97
+Sialum,Kilasairo River SE,8,7330,50,3,FALSE,7612.38,77.84
+Sialum,Kilasairo River SE,8,7157,50,4,FALSE,7454.82,75.55
+Sialum,Kilasairo River SE,8,6576,48,5,FALSE,6858.74,96.59
+Sialum,Kilasairo River SE,8,7016,63,5,FALSE,7325.63,86.03
+Sialum,Kilasairo River SE,8,6222,48,6,FALSE,6459.18,89.77
+Sialum,Kilasairo River SE,8,6281,51,6,FALSE,6522.17,92.87
+Sialum,Kilasairo River SE,8,6019,53,7,FALSE,6244.47,89.56
+Sialum,Kilasairo River NW,9,8156,50,1,FALSE,8461.80,82.75
+Sialum,Kilasairo River NW,9,7860,42,1,FALSE,8143.85,83.50
+Sialum,Kilasairo River NW,9,7968,47,1,FALSE,8256.22,78.56
+Sialum,Kilasairo River NW,9,7843,57,1,FALSE,8127.10,90.60
+Sialum,Kilasairo River NW,9,8094,53,1,FALSE,8394.22,85.43
+Sialum,Kilasairo River NW,9,8070,52,1,FALSE,8365.70,84.91
+Sialum,Kilasairo River NW,9,7936,41,1,FALSE,8226.12,77.92
+Sialum,Kilasairo River NW,9,7811,83,1,FALSE,8097.19,107.69
+Sialum,Kilasairo River NW,9,7930,140,1,FALSE,8218.06,161.65
+Sialum,Kilasairo River NW,9,8082,93,1,FALSE,8383.35,124.08
+Sialum,Kilasairo River NW,9,7720,69,1,FALSE,8003.35,98.16
+Sialum,Kilasairo River NW,9,8095,59,1,FALSE,8395.39,90.23
+Sialum,Kilasairo River NW,9,8355,64,1,FALSE,8720.82,120.89
+Sialum,Kilasairo River NW,9,8143,61,1,FALSE,8450.03,92.24
+Sialum,Kilasairo River NW,9,8110,60,1,FALSE,8413.03,90.83
+Sialum,Kilasairo River NW,9,8032,48,1,FALSE,8321.50,80.46
+Sialum,Kilasairo River NW,9,8133,51,1,FALSE,8437.74,82.56
+Sialum,Kilasairo River NW,9,8230,180,1,FALSE,8588.47,231.89
+Sialum,Kilasairo River NW,9,7867,90,1,FALSE,8152.13,113.10
+Sialum,Kilasairo River NW,9,7933,83,1,FALSE,8217.86,107.79
+Sialum,Kilasairo River NW,9,7970,45,1,FALSE,8258.35,76.98
+Sialum,Kilasairo River NW,9,8037,45,1,FALSE,8327.16,78.77
+Sialum,Kilasairo River NW,9,7955,58,1,FALSE,8242.13,87.44
+Sialum,Kilasairo River NW,9,8026,47,1,FALSE,8315.00,79.50
+Sialum,Kilasairo River NW,9,7906,65,1,FALSE,8191.87,95.47
+Sialum,Kilasairo River NW,9,8042,64,1,FALSE,8333.59,93.83
+Sialum,Kilasairo River NW,9,8673,83,1,FALSE,9143.87,126.56
+Sialum,Kilasairo River NW,9,7972,63,1,FALSE,8258.62,90.54
+Sialum,Kilasairo River NW,9,7792,49,1,FALSE,8075.53,82.25
+Sialum,Kilasairo River NW,9,7378,41,1,TRUE,7658.52,74.26
+Sialum,Kilasairo River NW,9,7700,140,1,FALSE,7983.99,159.18
+Sialum,Kilasairo River NW,9,8080,63,1,FALSE,8378.32,93.86
+Sialum,Kilasairo River NW,9,8026,64,1,FALSE,8315.58,92.85
+Sialum,Kilasairo River NW,9,7772,71,1,FALSE,8057.74,98.32
+Sialum,Kilasairo River NW,9,7432,41,1,TRUE,7711.07,75.97
+Sialum,Kilasairo River NW,9,7429,57,1,TRUE,7709.56,84.55
+Sialum,Kilasairo River NW,9,7110,47,1,TRUE,7411.66,75.62
+Sialum,Kilasairo River NW,9,6722,59,1,TRUE,7025.45,101.10
+Sialum,Kilasairo River NW,9,7113,61,1,TRUE,7414.10,83.04
+Sialum,Kilasairo River NW,9,6436,62,1,TRUE,6698.25,105.20
+Sialum,Kilasairo River NW,9,8164,52,3,FALSE,8470.72,85.18
+Sialum,Kilasairo River NW,9,8002,51,4,FALSE,8289.54,81.16
+Sialum,Kilasairo River NW,9,7370,49,5,FALSE,7651.49,78.45
+Sialum,Kilasairo River NW,9,7045,48,6,FALSE,7352.57,76.02
+Sialum,Kilasairo River NW,9,8175,52,2,FALSE,8482.55,86.71
+Sialum,Kilasairo River NW,9,6566,52,7,FALSE,6847.47,98.88
+Sialum,Kilasairo River NW,9,6699,65,8,FALSE,7000.12,106.87
+Sialum,Kilasairo River NW,9,6577,47,8,FALSE,6859.88,96.08
+Sialum,Kilasairo River NW,9,6287,52,9,FALSE,6528.69,93.56

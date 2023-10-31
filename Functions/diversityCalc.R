@@ -8,25 +8,13 @@ alphaDiversityCalc <- function(siteData,
   tempGr <- lapply(tempGr, function(x){x[x>0]})
   
   tempDf <- data.frame(transect = rownames(genusMatProp),
-                       genusH0 = sapply(tempGen, hillCalc, l=1),
-                       genusH1 = sapply(tempGen, hillCalc, l=1e-6),
-                       genusH2 = sapply(tempGen, hillCalc, l=-1),
-                       grH0 = sapply(tempGr, hillCalc, l=1),
-                       grH1 = sapply(tempGr, hillCalc, l=1e-6),
-                       grH2 = sapply(tempGr, hillCalc, l=-1))
+                       genusH0 = sapply(tempGen, renyi, hill=TRUE, scales=0),
+                       genusH1 = sapply(tempGen, renyi, hill=TRUE, scales=1),
+                       genusH2 = sapply(tempGen, renyi, hill=TRUE, scales=2),
+                       grH0 = sapply(tempGr, renyi, hill=TRUE, scales=0),
+                       grH1 = sapply(tempGr, renyi, hill=TRUE, scales=1),
+                       grH2 = sapply(tempGr, renyi, hill=TRUE, scales=2))
 
-  h0 <- rotate.data(x=tempDf$grH0,
-                    y=tempDf$genusH0, angle=45)[,3:4]
-  colnames(h0) = c("coordH0", "ratioH0")
-  
-  h1 <- rotate.data(x=tempDf$grH1,
-                    y=tempDf$genusH1, angle=45)[,3:4]
-  colnames(h1) = c("coordH1", "ratioH1")
-  
-  h2 <- rotate.data(x=tempDf$grH2,
-                    y=tempDf$genusH2, angle=45)[,3:4]
-  colnames(h2) = c("coordH2", "ratioH2")
-  
   extraDf <- do.call("rbind",
                          lapply(split(siteData,
                                       f=siteData$locality),
@@ -39,9 +27,7 @@ alphaDiversityCalc <- function(siteData,
                                   return(x)
                                 }))
   
-  divDf <- cbind(tempDf, h0, h1, h2)
-  
-  divDf <- merge(divDf, extraDf,
+  divDf <- merge(tempDf, extraDf,
                  by.x="transect", by.y="transect",
                  all.x=TRUE, all.y=FALSE, sort=FALSE)
   

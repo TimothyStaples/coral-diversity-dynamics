@@ -29,27 +29,27 @@ diversityTrendsPlotsF <- function(loc.color,
            arr.type="triangle", arr.length=0.1,
            arr.width=0.1, col=col)
     
-    sapply(max(pred.date) - seq(0,5000,250), function(seg.n){
-      
-      temp.match <- which(pred.date == seg.n)
-      base.age <- max(pred.date)
-      diff.age <- base.age - seg.n
-      
-      if(length(temp.match)>0){
-        
-        target.fit1 <- fit1[temp.match - c(1,0)]
-        target.fit2 <- fit2[temp.match - c(1,0)]
-        
-        if(length(target.fit1)<2 | length(target.fit2) <2){return(NULL)}
-        arrows(x0=target.fit1[1], x1=target.fit1[2],
-               y0=target.fit2[1], y1=target.fit2[2],
-               angle=145, col=col,
-               length=ifelse(diff.age %% 1000 == 0, 0.025,0.025),
-               lwd=ifelse(diff.age %% 1000 == 0, 0.5,0.5))
-        
-      }
-      
-    })
+    # sapply(max(pred.date) - seq(0,5000,250), function(seg.n){
+    #   
+    #   temp.match <- which(pred.date == seg.n)
+    #   base.age <- max(pred.date)
+    #   diff.age <- base.age - seg.n
+    #   
+    #   if(length(temp.match)>0){
+    #     
+    #     target.fit1 <- fit1[temp.match - c(1,0)]
+    #     target.fit2 <- fit2[temp.match - c(1,0)]
+    #     
+    #     if(length(target.fit1)<2 | length(target.fit2) <2){return(NULL)}
+    #     arrows(x0=target.fit1[1], x1=target.fit1[2],
+    #            y0=target.fit2[1], y1=target.fit2[2],
+    #            angle=145, col=col,
+    #            length=ifelse(diff.age %% 1000 == 0, 0.025,0.025),
+    #            lwd=ifelse(diff.age %% 1000 == 0, 0.5,0.5))
+    #     
+    #   }
+    #   
+    # })
     
   }
   
