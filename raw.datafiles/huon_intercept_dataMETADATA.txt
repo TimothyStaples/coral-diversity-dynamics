@@ -1,0 +1,32 @@
+--Metadata for huon_intercept_data.csv--
+
+This .csv provides raw intercept data from uplifted Holocene coral reef terraces along the Huon Peninsula, Papua New Guinea. Subsets of these data were used to generate analyses, with full processing and analysis pathway in the top-level R-script.
+
+Details of methodology are available at the publication connected to this repository, with additional details at:
+
+Pandolfi, J. M., Tudhope, A. W., Burr, G., Chappell, J., Edinger, E., Frey, M., Steneck, R., Sharma, C., Yeates, A., Jennions, M., Lescinsky, H., & Newton, A. (2006). Mass mortality following disturbance in Holocene coral reefs from Papua New Guinea. Geology, 34(11), 949–952. https://doi.org/10.1130/G22814A.1
+
+Edinger, E. N., Burr, G. S., Pandolfi, J. M., & Ortiz, J. C. (2007). Age accuracy and resolution of Quaternary corals used as proxies for sea level. Earth and Planetary Science Letters, 253(1), 37–49. https://doi.org/https://doi.org/10.1016/j.epsl.2006.10.014
+
+Column metadata:
+
+transect - (category) ID number of horizontal reef terrace transect.
+tape - (category) sub-ID for transects with multiple sets of tape measurements.
+int.start - (numeric, centimetres) start position of each intercept along transect tape. 
+int.end - (numeric, centimetres) end position of each intercept along transect tape.
+int.delta - (numeric, centimetres) difference of start and end position ("width") of each intercept along transect tape.
+intercept - (category) broad classifications of intercept type, including coral, substrate (sand/rock), etc.
+intercept.sure - (binary) confidence in intercept classification.
+substrate.bin - (binary) is the classification non-biological substrate?
+whole - (category) for coral intercepts, was coral a whole died-in-place colony ("W"), a fragment ("F") or several freagments ("Fs")
+orientation - (numeric, degrees) orientation of coral intercepts (0 = vertical).
+orient.mean - (numeric, degrees) mean values of coral orientation (averaged for ranges).
+orient.spread - (numeric, degrees) difference in orientation ranges.
+int.length - (numeric, cm) - horizontal length of intercept at widest point. This measurement was taken for the intercept, but could occur above or below the tape.
+int.width - (numeric, cm) - vertical length of intercept at widest point. This measurement was taken for the intercept, but could occur above or below the tape.
+int.surf.area - (numeric, cm^2) total surface area of intercept (including above and below the intercept tape)
+family - (category) coral family ID for all coral intercepts. Validated using WoRMS (https://www.marinespecies.org/) in 2020 .
+genus - (category) coral genus ID for all coral intercepts. Validated using WoRMS (https://www.marinespecies.org/) in 2020 .
+species - (category) coral species ID for all coral intercepts. Validated using WoRMS (https://www.marinespecies.org/) in 2020 .
+species.fact - (category) More specific category that separates hermatypic coral from octocorals and other groups.
+growth.comb - (free text) Growth forms were assessed in the field and subsequently from photos. These two growth form assessments are joined, separated by ":".
